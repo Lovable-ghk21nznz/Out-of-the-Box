@@ -3,8 +3,18 @@ import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, RefreshCw } from "lucide-react";
 import { PlayingCard } from "@/components/PlayingCard";
-import { categories, games } from "@/data/categories";
+import { games } from "@/data/categories";
 import { motion } from "framer-motion";
+
+// Map game IDs to their file paths
+const gameFilePaths: Record<string, string> = {
+  'truth-or-dare-dating': 'dating/truth-or-dare',
+  'never-have-i-dating': 'dating/never-have-i',
+  'buzzed': 'drinking/buzzed',
+  'truth-or-drink': 'drinking/truth-or-drink',
+  'would-you-rather': 'get-to-know/would-you-rather',
+  'deep-talk': 'get-to-know/deep-talk',
+};
 
 const GamePlay = () => {
   const navigate = useNavigate();
@@ -14,15 +24,18 @@ const GamePlay = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   const game = games.find(g => g.id === gameId);
-  const category = categories.find(c => c.id === game?.categoryId);
 
   useEffect(() => {
     const loadCards = async () => {
-      if (!game) return;
+      if (!game || !gameId) return;
       
       try {
-        // Dynamically import the game data
-        const gameData = await import(`../data/games/${game.categoryId}/${gameId?.replace(`${game.categoryId}-`, '').replace(/-/g, '-')}.json`);
+        const filePath = gameFilePaths[gameId];
+        if (!filePath) {
+          throw new Error(`No file path found for game: ${gameId}`);
+        }
+        
+        const gameData = await import(`../data/games/${filePath}.json`);
         const shuffled = [...gameData.cards].sort(() => Math.random() - 0.5);
         setCards(shuffled);
       } catch (error) {
@@ -35,7 +48,7 @@ const GamePlay = () => {
     loadCards();
   }, [game, gameId]);
 
-  if (!game || !category) {
+  if (!game) {
     navigate('/');
     return null;
   }
@@ -60,7 +73,7 @@ const GamePlay = () => {
         >
           <Button
             variant="ghost"
-            onClick={() => navigate(`/category/${category.id}`)}
+            onClick={() => navigate('/')}
             className="mb-4 text-foreground hover:bg-muted"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
@@ -88,7 +101,7 @@ const GamePlay = () => {
             <div className="mb-6">
               <PlayingCard 
                 content={cards[currentIndex]}
-                gradient={category.gradient}
+                gradient={game.gradient}
               />
             </div>
 

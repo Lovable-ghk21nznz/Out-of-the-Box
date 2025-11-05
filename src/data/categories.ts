@@ -1,84 +1,59 @@
-export interface Category {
-  id: string;
-  name: string;
-  description: string;
-  emoji: string;
-  gradient: string;
-}
-
-export const categories: Category[] = [
-  {
-    id: 'dating',
-    name: 'Dating',
-    description: 'Romantic questions and playful prompts for couples',
-    emoji: '💕',
-    gradient: 'var(--gradient-warm)',
-  },
-  {
-    id: 'drinking',
-    name: 'Drinking',
-    description: 'Fun party games to spice up the night',
-    emoji: '🍻',
-    gradient: 'var(--gradient-sunshine)',
-  },
-  {
-    id: 'get-to-know',
-    name: 'Get to Know',
-    description: 'Deep questions to connect with friends',
-    emoji: '✨',
-    gradient: 'var(--gradient-cool)',
-  },
-];
-
 export interface Game {
   id: string;
   name: string;
   description: string;
-  categoryId: string;
+  emoji: string;
   cardCount: number;
+  gradient: string;
 }
 
 export const games: Game[] = [
   {
     id: 'truth-or-dare-dating',
-    name: 'Truth or Dare',
-    description: 'Romantic truths and daring challenges',
-    categoryId: 'dating',
+    name: 'First Date',
+    description: 'Romantic truths and daring challenges for couples',
+    emoji: '💕',
     cardCount: 50,
+    gradient: 'var(--gradient-warm)',
   },
   {
     id: 'never-have-i-dating',
     name: 'Never Have I Ever',
     description: 'Discover secrets and shared experiences',
-    categoryId: 'dating',
+    emoji: '🙈',
     cardCount: 40,
+    gradient: 'var(--gradient-warm)',
   },
   {
     id: 'buzzed',
     name: 'Buzzed',
     description: 'Classic drinking game fun',
-    categoryId: 'drinking',
+    emoji: '🍻',
     cardCount: 60,
+    gradient: 'var(--gradient-sunshine)',
   },
   {
     id: 'truth-or-drink',
     name: 'Truth or Drink',
     description: 'Answer honestly or take a sip',
-    categoryId: 'drinking',
+    emoji: '🍹',
     cardCount: 45,
-  },
-  {
-    id: 'deep-talk',
-    name: 'Deep Talk',
-    description: 'Meaningful conversations starter',
-    categoryId: 'get-to-know',
-    cardCount: 50,
+    gradient: 'var(--gradient-sunshine)',
   },
   {
     id: 'would-you-rather',
     name: 'Would You Rather',
     description: 'Impossible choices and fun dilemmas',
-    categoryId: 'get-to-know',
+    emoji: '🤔',
     cardCount: 55,
+    gradient: 'var(--gradient-cool)',
+  },
+  {
+    id: 'deep-talk',
+    name: 'Deep Talk',
+    description: 'Meaningful conversations starter',
+    emoji: '✨',
+    cardCount: 50,
+    gradient: 'var(--gradient-cool)',
   },
 ];

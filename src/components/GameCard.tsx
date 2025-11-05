@@ -1,7 +1,13 @@
 import { Card } from "@/components/ui/card";
 import { Game } from "@/data/categories";
 import { motion } from "framer-motion";
-import { ChevronRight } from "lucide-react";
+import { HelpCircle } from "lucide-react";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 interface GameCardProps {
   game: Game;
@@ -22,13 +28,29 @@ export const GameCard = ({ game, onClick, index }: GameCardProps) => {
         className="cursor-pointer border border-border hover:shadow-card transition-all bg-card"
         onClick={onClick}
       >
-        <div className="flex items-center justify-between p-5">
+        <div className="flex items-center gap-4 p-5">
+          <span className="text-3xl">{game.emoji}</span>
           <div className="flex-1">
-            <h3 className="text-lg font-semibold text-foreground mb-1">{game.name}</h3>
-            <p className="text-sm text-muted-foreground">{game.description}</p>
-            <p className="text-xs text-muted-foreground mt-2">{game.cardCount} cards</p>
+            <h3 className="text-lg font-semibold text-foreground">{game.name}</h3>
           </div>
-          <ChevronRight className="w-5 h-5 text-muted-foreground ml-4" />
+          <TooltipProvider>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                  }}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  <HelpCircle className="w-5 h-5" />
+                </button>
+              </TooltipTrigger>
+              <TooltipContent side="left" className="max-w-xs">
+                <p className="text-sm">{game.description}</p>
+                <p className="text-xs text-muted-foreground mt-1">{game.cardCount} cards</p>
+              </TooltipContent>
+            </Tooltip>
+          </TooltipProvider>
         </div>
       </Card>
     </motion.div>

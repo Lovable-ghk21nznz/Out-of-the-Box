@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import { CategoryCard } from "@/components/CategoryCard";
-import { categories } from "@/data/categories";
+import { GameCard } from "@/components/GameCard";
+import { games } from "@/data/categories";
 import { motion } from "framer-motion";
 
 const Index = () => {
@@ -19,17 +19,17 @@ const Index = () => {
             Party Games 🎉
           </h1>
           <p className="text-lg text-muted-foreground">
-            Choose your vibe and let the fun begin
+            Choose your game and let the fun begin
           </p>
         </motion.div>
 
-        <div className="grid gap-4 md:gap-5">
-          {categories.map((category, index) => (
-            <CategoryCard
-              key={category.id}
-              category={category}
+        <div className="space-y-3 overflow-y-auto">
+          {games.map((game, index) => (
+            <GameCard
+              key={game.id}
+              game={game}
               index={index}
-              onClick={() => navigate(`/category/${category.id}`)}
+              onClick={() => navigate(`/game/${game.id}`)}
             />
           ))}
         </div>
