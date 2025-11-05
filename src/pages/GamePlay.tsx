@@ -6,14 +6,22 @@ import { PlayingCard } from "@/components/PlayingCard";
 import { games } from "@/data/categories";
 import { motion } from "framer-motion";
 
-// Map game IDs to their file paths
-const gameFilePaths: Record<string, string> = {
-  'truth-or-dare-dating': 'dating/truth-or-dare',
-  'never-have-i-dating': 'dating/never-have-i',
-  'buzzed': 'drinking/buzzed',
-  'truth-or-drink': 'drinking/truth-or-drink',
-  'would-you-rather': 'get-to-know/would-you-rather',
-  'deep-talk': 'get-to-know/deep-talk',
+// Import all card data
+import truthOrDareData from "@/data/games/dating/truth-or-dare.json";
+import neverHaveIData from "@/data/games/dating/never-have-i.json";
+import buzzedData from "@/data/games/drinking/buzzed.json";
+import truthOrDrinkData from "@/data/games/drinking/truth-or-drink.json";
+import wouldYouRatherData from "@/data/games/get-to-know/would-you-rather.json";
+import deepTalkData from "@/data/games/get-to-know/deep-talk.json";
+
+// Map game IDs to their card data
+const gameCardData: Record<string, { cards: string[] }> = {
+  'truth-or-dare-dating': truthOrDareData,
+  'never-have-i-dating': neverHaveIData,
+  'buzzed': buzzedData,
+  'truth-or-drink': truthOrDrinkData,
+  'would-you-rather': wouldYouRatherData,
+  'deep-talk': deepTalkData,
 };
 
 const GamePlay = () => {
@@ -26,17 +34,16 @@ const GamePlay = () => {
   const game = games.find(g => g.id === gameId);
 
   useEffect(() => {
-    const loadCards = async () => {
+    const loadCards = () => {
       if (!game || !gameId) return;
       
       try {
-        const filePath = gameFilePaths[gameId];
-        if (!filePath) {
-          throw new Error(`No file path found for game: ${gameId}`);
+        const cardData = gameCardData[gameId];
+        if (!cardData) {
+          throw new Error(`No card data found for game: ${gameId}`);
         }
         
-        const gameData = await import(`../data/games/${filePath}.json`);
-        const shuffled = [...gameData.cards].sort(() => Math.random() - 0.5);
+        const shuffled = [...cardData.cards].sort(() => Math.random() - 0.5);
         setCards(shuffled);
       } catch (error) {
         console.error('Error loading cards:', error);

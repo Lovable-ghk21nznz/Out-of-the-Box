@@ -23,7 +23,7 @@ const Index = () => {
           </p>
         </motion.div>
 
-        <div className="space-y-3 overflow-y-auto">
+        <div className="space-y-3 max-h-[calc(100vh-250px)] overflow-y-auto pr-2">
           {games.map((game, index) => (
             <GameCard
               key={game.id}
