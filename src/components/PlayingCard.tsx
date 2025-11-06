@@ -16,11 +16,11 @@ export const PlayingCard = ({ content, color, secondContent }: PlayingCardProps)
       className="w-full max-w-sm mx-auto"
     >
       <Card 
-        className="relative overflow-hidden border-0 shadow-elevated"
+        className="relative overflow-hidden border-0 shadow-elevated flex items-center justify-center"
         style={{ background: color, minHeight: '400px' }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent" />
-        <div className="relative h-full flex items-center justify-center p-8">
+        <div className="relative flex items-center justify-center p-8 w-full">
           {secondContent ? (
             <div className="flex flex-col items-center justify-center gap-6 w-full">
               <p className="text-lg md:text-xl font-medium text-white text-center leading-relaxed">
