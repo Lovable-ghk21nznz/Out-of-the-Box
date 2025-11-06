@@ -112,23 +112,16 @@ const GamePlay = () => {
           >
             <CarouselContent>
               {gameId === 'pick-your-poison' ? (
-                // Show pairs of cards for Pick Your Poison
+                // Show pairs of options on single card for Pick Your Poison
                 cards.reduce((acc, card, index) => {
                   if (index % 2 === 0) {
                     acc.push(
                       <CarouselItem key={index}>
-                        <div className="grid grid-cols-2 gap-3">
-                          <PlayingCard 
-                            content={card}
-                            color={game.color}
-                          />
-                          {cards[index + 1] && (
-                            <PlayingCard 
-                              content={cards[index + 1]}
-                              color={game.color}
-                            />
-                          )}
-                        </div>
+                        <PlayingCard 
+                          content={card}
+                          secondContent={cards[index + 1]}
+                          color={game.color}
+                        />
                       </CarouselItem>
                     );
                   }
