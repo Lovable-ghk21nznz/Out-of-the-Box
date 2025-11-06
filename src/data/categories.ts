@@ -63,4 +63,22 @@ export const games: Game[] = [
     gradient: 'var(--gradient-cool)',
     color: 'linear-gradient(135deg, hsl(250 65% 55%), hsl(260 70% 60%))',
   },
+  {
+    id: 'pictionary-adult',
+    name: 'Pictionary Adult',
+    description: 'Draw challenging and funny scenarios',
+    emoji: '🎨',
+    cardCount: 40,
+    gradient: 'var(--gradient-warm)',
+    color: 'linear-gradient(135deg, hsl(15 85% 60%), hsl(25 90% 65%))',
+  },
+  {
+    id: 'pick-your-poison',
+    name: 'Pick Your Poison',
+    description: 'Choose between two terrible options',
+    emoji: '☠️',
+    cardCount: 35,
+    gradient: 'var(--gradient-cool)',
+    color: 'linear-gradient(135deg, hsl(140 60% 45%), hsl(150 65% 50%))',
+  },
 ];

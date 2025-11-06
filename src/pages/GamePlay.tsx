@@ -19,6 +19,8 @@ import buzzedData from "@/data/games/drinking/buzzed.json";
 import truthOrDrinkData from "@/data/games/drinking/truth-or-drink.json";
 import wouldYouRatherData from "@/data/games/get-to-know/would-you-rather.json";
 import deepTalkData from "@/data/games/get-to-know/deep-talk.json";
+import pictionaryAdultData from "@/data/games/drawing/pictionary-adult.json";
+import pickYourPoisonData from "@/data/games/choice/pick-your-poison.json";
 
 // Map game IDs to their card data
 const gameCardData: Record<string, { cards: string[] }> = {
@@ -28,6 +30,8 @@ const gameCardData: Record<string, { cards: string[] }> = {
   'truth-or-drink': truthOrDrinkData,
   'would-you-rather': wouldYouRatherData,
   'deep-talk': deepTalkData,
+  'pictionary-adult': pictionaryAdultData,
+  'pick-your-poison': pickYourPoisonData,
 };
 
 const GamePlay = () => {
@@ -107,14 +111,40 @@ const GamePlay = () => {
             className="w-full"
           >
             <CarouselContent>
-              {cards.map((card, index) => (
-                <CarouselItem key={index}>
-                  <PlayingCard 
-                    content={card}
-                    color={game.color}
-                  />
-                </CarouselItem>
-              ))}
+              {gameId === 'pick-your-poison' ? (
+                // Show pairs of cards for Pick Your Poison
+                cards.reduce((acc, card, index) => {
+                  if (index % 2 === 0) {
+                    acc.push(
+                      <CarouselItem key={index}>
+                        <div className="grid grid-cols-2 gap-3">
+                          <PlayingCard 
+                            content={card}
+                            color={game.color}
+                          />
+                          {cards[index + 1] && (
+                            <PlayingCard 
+                              content={cards[index + 1]}
+                              color={game.color}
+                            />
+                          )}
+                        </div>
+                      </CarouselItem>
+                    );
+                  }
+                  return acc;
+                }, [] as JSX.Element[])
+              ) : (
+                // Show single cards for other games
+                cards.map((card, index) => (
+                  <CarouselItem key={index}>
+                    <PlayingCard 
+                      content={card}
+                      color={game.color}
+                    />
+                  </CarouselItem>
+                ))
+              )}
             </CarouselContent>
           </Carousel>
         )}
