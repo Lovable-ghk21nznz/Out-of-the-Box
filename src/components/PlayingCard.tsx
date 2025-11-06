@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 interface PlayingCardProps {
   content: string;
-  gradient: string;
+  color: string;
 }
 
-export const PlayingCard = ({ content, gradient }: PlayingCardProps) => {
+export const PlayingCard = ({ content, color }: PlayingCardProps) => {
   return (
     <motion.div
       initial={{ rotateY: 90, opacity: 0 }}
@@ -16,7 +16,7 @@ export const PlayingCard = ({ content, gradient }: PlayingCardProps) => {
     >
       <Card 
         className="relative overflow-hidden border-0 shadow-elevated"
-        style={{ background: gradient, minHeight: '400px' }}
+        style={{ background: color, minHeight: '400px' }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent" />
         <div className="relative h-full flex items-center justify-center p-8">

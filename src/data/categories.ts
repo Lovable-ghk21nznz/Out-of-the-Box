@@ -5,6 +5,7 @@ export interface Game {
   emoji: string;
   cardCount: number;
   gradient: string;
+  color: string;
 }
 
 export const games: Game[] = [
@@ -15,6 +16,7 @@ export const games: Game[] = [
     emoji: '💕',
     cardCount: 50,
     gradient: 'var(--gradient-warm)',
+    color: 'linear-gradient(135deg, hsl(340 75% 65%), hsl(350 80% 70%))',
   },
   {
     id: 'never-have-i-dating',
@@ -23,6 +25,7 @@ export const games: Game[] = [
     emoji: '🙈',
     cardCount: 40,
     gradient: 'var(--gradient-warm)',
+    color: 'linear-gradient(135deg, hsl(280 65% 60%), hsl(290 70% 65%))',
   },
   {
     id: 'buzzed',
@@ -31,6 +34,7 @@ export const games: Game[] = [
     emoji: '🍻',
     cardCount: 60,
     gradient: 'var(--gradient-sunshine)',
+    color: 'linear-gradient(135deg, hsl(45 95% 60%), hsl(38 92% 58%))',
   },
   {
     id: 'truth-or-drink',
@@ -39,6 +43,7 @@ export const games: Game[] = [
     emoji: '🍹',
     cardCount: 45,
     gradient: 'var(--gradient-sunshine)',
+    color: 'linear-gradient(135deg, hsl(175 65% 55%), hsl(185 70% 60%))',
   },
   {
     id: 'would-you-rather',
@@ -47,6 +52,7 @@ export const games: Game[] = [
     emoji: '🤔',
     cardCount: 55,
     gradient: 'var(--gradient-cool)',
+    color: 'linear-gradient(135deg, hsl(210 75% 60%), hsl(220 70% 65%))',
   },
   {
     id: 'deep-talk',
@@ -55,5 +61,6 @@ export const games: Game[] = [
     emoji: '✨',
     cardCount: 50,
     gradient: 'var(--gradient-cool)',
+    color: 'linear-gradient(135deg, hsl(250 65% 55%), hsl(260 70% 60%))',
   },
 ];
