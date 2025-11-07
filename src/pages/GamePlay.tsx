@@ -13,14 +13,14 @@ import {
 } from "@/components/ui/carousel";
 
 // Import all card data
-import truthOrDareData from "@/data/games/dating/truth-or-dare.json";
-import neverHaveIData from "@/data/games/dating/never-have-i.json";
-import buzzedData from "@/data/games/drinking/buzzed.json";
-import truthOrDrinkData from "@/data/games/drinking/truth-or-drink.json";
-import wouldYouRatherData from "@/data/games/get-to-know/would-you-rather.json";
-import deepTalkData from "@/data/games/get-to-know/deep-talk.json";
-import pictionaryAdultData from "@/data/games/drawing/pictionary-adult.json";
-import pickYourPoisonData from "@/data/games/choice/pick-your-poison.json";
+import truthOrDareData from "@/data/games/truth-or-dare-dating/truth-or-dare-dating.json";
+import neverHaveIData from "@/data/games/never-have-i-dating/never-have-i-dating.json";
+import buzzedData from "@/data/games/buzzed/buzzed.json";
+import truthOrDrinkData from "@/data/games/truth-or-drink/truth-or-drink.json";
+import wouldYouRatherData from "@/data/games/would-you-rather/would-you-rather.json";
+import deepTalkData from "@/data/games/deep-talk/deep-talk.json";
+import pictionaryAdultData from "@/data/games/pictionary-adult/pictionary-adult.json";
+import pickYourPoisonData from "@/data/games/pick-your-poison/pick-your-poison.json";
 
 // Map game IDs to their card data
 const gameCardData: Record<string, { cards: string[] }> = {
