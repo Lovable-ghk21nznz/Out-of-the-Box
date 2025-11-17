@@ -13,23 +13,27 @@ import {
 } from "@/components/ui/carousel";
 
 // Import all card data
-import neverHaveIData from "@/data/games/never-have-i-ever/never-have-i-ever.json";
 import buzzedData from "@/data/games/buzzed/buzzed.json";
+import datingData from "@/data/games/dating/dating.json";
+import deepTalkData from "@/data/games/deep-talk/deep-talk.json";
+import mostLikelyData from "@/data/games/most-likely/most-likely.json";
+import neverHaveIData from "@/data/games/never-have-i-ever/never-have-i-ever.json";
+import pickYourPoisonData from "@/data/games/pick-your-poison/pick-your-poison.json";
+import pictionaryAdultData from "@/data/games/pictionary-adult/pictionary-adult.json";
 import truthOrDrinkData from "@/data/games/truth-or-drink/truth-or-drink.json";
 import wouldYouRatherData from "@/data/games/would-you-rather/would-you-rather.json";
-import deepTalkData from "@/data/games/deep-talk/deep-talk.json";
-import pictionaryAdultData from "@/data/games/pictionary-adult/pictionary-adult.json";
-import pickYourPoisonData from "@/data/games/pick-your-poison/pick-your-poison.json";
 
 // Map game IDs to their card data
 const gameCardData: Record<string, { cards: string[] }> = {
-  "never-have-i-ever": neverHaveIData,
   buzzed: buzzedData,
+  dating: datingData,
+  "deep-talk": deepTalkData,
+  "most-likely": mostLikelyData,
+  "never-have-i-ever": neverHaveIData,
+  "pick-your-poison": pickYourPoisonData,
+  "pictionary-adult": pictionaryAdultData,
   "truth-or-drink": truthOrDrinkData,
   "would-you-rather": wouldYouRatherData,
-  "deep-talk": deepTalkData,
-  "pictionary-adult": pictionaryAdultData,
-  "pick-your-poison": pickYourPoisonData,
 };
 
 const GamePlay = () => {
@@ -48,9 +52,8 @@ const GamePlay = () => {
 
       try {
         const cardData = gameCardData[gameId];
-        if (!cardData) {
+        if (!cardData)
           throw new Error(`No card data found for game: ${gameId}`);
-        }
 
         const shuffled = [...cardData.cards].sort(() => Math.random() - 0.5);
         setCards(shuffled);
