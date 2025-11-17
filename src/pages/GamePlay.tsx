@@ -13,8 +13,7 @@ import {
 } from "@/components/ui/carousel";
 
 // Import all card data
-import truthOrDareData from "@/data/games/truth-or-dare-dating/truth-or-dare-dating.json";
-import neverHaveIData from "@/data/games/never-have-i-dating/never-have-i-dating.json";
+import neverHaveIData from "@/data/games/never-have-i-ever/never-have-i-ever.json";
 import buzzedData from "@/data/games/buzzed/buzzed.json";
 import truthOrDrinkData from "@/data/games/truth-or-drink/truth-or-drink.json";
 import wouldYouRatherData from "@/data/games/would-you-rather/would-you-rather.json";
@@ -24,14 +23,13 @@ import pickYourPoisonData from "@/data/games/pick-your-poison/pick-your-poison.j
 
 // Map game IDs to their card data
 const gameCardData: Record<string, { cards: string[] }> = {
-  'truth-or-dare-dating': truthOrDareData,
-  'never-have-i-dating': neverHaveIData,
-  'buzzed': buzzedData,
-  'truth-or-drink': truthOrDrinkData,
-  'would-you-rather': wouldYouRatherData,
-  'deep-talk': deepTalkData,
-  'pictionary-adult': pictionaryAdultData,
-  'pick-your-poison': pickYourPoisonData,
+  "never-have-i-ever": neverHaveIData,
+  buzzed: buzzedData,
+  "truth-or-drink": truthOrDrinkData,
+  "would-you-rather": wouldYouRatherData,
+  "deep-talk": deepTalkData,
+  "pictionary-adult": pictionaryAdultData,
+  "pick-your-poison": pickYourPoisonData,
 };
 
 const GamePlay = () => {
@@ -42,22 +40,22 @@ const GamePlay = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
 
-  const game = games.find(g => g.id === gameId);
+  const game = games.find((g) => g.id === gameId);
 
   useEffect(() => {
     const loadCards = () => {
       if (!game || !gameId) return;
-      
+
       try {
         const cardData = gameCardData[gameId];
         if (!cardData) {
           throw new Error(`No card data found for game: ${gameId}`);
         }
-        
+
         const shuffled = [...cardData.cards].sort(() => Math.random() - 0.5);
         setCards(shuffled);
       } catch (error) {
-        console.error('Error loading cards:', error);
+        console.error("Error loading cards:", error);
       } finally {
         setIsLoading(false);
       }
@@ -75,7 +73,7 @@ const GamePlay = () => {
   }, [carouselApi]);
 
   if (!game) {
-    navigate('/');
+    navigate("/");
     return null;
   }
 
@@ -89,16 +87,20 @@ const GamePlay = () => {
         >
           <Button
             variant="ghost"
-            onClick={() => navigate('/')}
+            onClick={() => navigate("/")}
             className="mb-4 text-foreground hover:bg-muted"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back
           </Button>
-          
+
           <div className="mb-6">
-            <h1 className="text-2xl font-bold text-foreground mb-1">{game.name}</h1>
-            <p className="text-sm text-muted-foreground">Card {currentIndex + 1} of {cards.length}</p>
+            <h1 className="text-2xl font-bold text-foreground mb-1">
+              {game.name}
+            </h1>
+            <p className="text-sm text-muted-foreground">
+              Card {currentIndex + 1} of {cards.length}
+            </p>
           </div>
         </motion.div>
 
@@ -111,33 +113,28 @@ const GamePlay = () => {
             className="w-full"
           >
             <CarouselContent>
-              {gameId === 'pick-your-poison' ? (
-                // Show pairs of options on single card for Pick Your Poison
-                cards.reduce((acc, card, index) => {
-                  if (index % 2 === 0) {
-                    acc.push(
-                      <CarouselItem key={index}>
-                        <PlayingCard 
-                          content={card}
-                          secondContent={cards[index + 1]}
-                          color={game.color}
-                        />
-                      </CarouselItem>
-                    );
-                  }
-                  return acc;
-                }, [] as JSX.Element[])
-              ) : (
-                // Show single cards for other games
-                cards.map((card, index) => (
-                  <CarouselItem key={index}>
-                    <PlayingCard 
-                      content={card}
-                      color={game.color}
-                    />
-                  </CarouselItem>
-                ))
-              )}
+              {gameId === "pick-your-poison"
+                ? // Show pairs of options on single card for Pick Your Poison
+                  cards.reduce((acc, card, index) => {
+                    if (index % 2 === 0) {
+                      acc.push(
+                        <CarouselItem key={index}>
+                          <PlayingCard
+                            content={card}
+                            secondContent={cards[index + 1]}
+                            color={game.color}
+                          />
+                        </CarouselItem>
+                      );
+                    }
+                    return acc;
+                  }, [] as JSX.Element[])
+                : // Show single cards for other games
+                  cards.map((card, index) => (
+                    <CarouselItem key={index}>
+                      <PlayingCard content={card} color={game.color} />
+                    </CarouselItem>
+                  ))}
             </CarouselContent>
           </Carousel>
         )}
