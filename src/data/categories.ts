@@ -1,8 +1,10 @@
 import buzzedData from "./games/buzzed/buzzed.json";
 import datingData from "./games/dating/dating.json";
 import deepTalkData from "./games/deep-talk/deep-talk.json";
+import hotTopicsData from "./games/hot-topics/hot-topics.json";
 import mostLikelyData from "./games/most-likely/most-likely.json";
 import neverHaveIData from "./games/never-have-i-ever/never-have-i-ever.json";
+import parallelUniverseData from "./games/parallel-universe/parallel-universe.json";
 import pickYourPoisonData from "./games/pick-your-poison/pick-your-poison.json";
 import pictionaryAdultData from "./games/pictionary-adult/pictionary-adult.json";
 import truthOrDrinkData from "./games/truth-or-drink/truth-or-drink.json";
@@ -47,6 +49,15 @@ export const games: Game[] = [
     color: "linear-gradient(135deg, hsl(250 65% 55%), hsl(260 70% 60%))",
   },
   {
+    id: "hot-topics",
+    name: "Hot Topics",
+    description: "Debate controversial topics",
+    emoji: "🔥",
+    cardCount: hotTopicsData.cards.length,
+    gradient: "var(--gradient-warm)",
+    color: "linear-gradient(135deg, hsl(0 75% 60%), hsl(15 80% 65%))",
+  },
+  {
     id: "most-likely",
     name: "Most Likely",
     description: "Guess the most likely outcome",
@@ -63,6 +74,15 @@ export const games: Game[] = [
     cardCount: neverHaveIData.cards.length,
     gradient: "var(--gradient-warm)",
     color: "linear-gradient(135deg, hsl(280 65% 60%), hsl(290 70% 65%))",
+  },
+  {
+    id: "parallel-universe",
+    name: "Parallel Universe",
+    description: "Explore hypothetical worlds",
+    emoji: "🌌",
+    cardCount: parallelUniverseData.cards.length,
+    gradient: "var(--gradient-cool)",
+    color: "linear-gradient(135deg, hsl(270 70% 55%), hsl(280 75% 60%))",
   },
   {
     id: "pick-your-poison",

@@ -16,8 +16,10 @@ import {
 import buzzedData from "@/data/games/buzzed/buzzed.json";
 import datingData from "@/data/games/dating/dating.json";
 import deepTalkData from "@/data/games/deep-talk/deep-talk.json";
+import hotTopicsData from "@/data/games/hot-topics/hot-topics.json";
 import mostLikelyData from "@/data/games/most-likely/most-likely.json";
 import neverHaveIData from "@/data/games/never-have-i-ever/never-have-i-ever.json";
+import parallelUniverseData from "@/data/games/parallel-universe/parallel-universe.json";
 import pickYourPoisonData from "@/data/games/pick-your-poison/pick-your-poison.json";
 import pictionaryAdultData from "@/data/games/pictionary-adult/pictionary-adult.json";
 import truthOrDrinkData from "@/data/games/truth-or-drink/truth-or-drink.json";
@@ -28,8 +30,10 @@ const gameCardData: Record<string, { cards: string[] }> = {
   buzzed: buzzedData,
   dating: datingData,
   "deep-talk": deepTalkData,
+  "hot-topics": hotTopicsData,
   "most-likely": mostLikelyData,
   "never-have-i-ever": neverHaveIData,
+  "parallel-universe": parallelUniverseData,
   "pick-your-poison": pickYourPoisonData,
   "pictionary-adult": pictionaryAdultData,
   "truth-or-drink": truthOrDrinkData,
