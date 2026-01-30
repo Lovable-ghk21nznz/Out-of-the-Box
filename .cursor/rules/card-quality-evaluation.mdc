@@ -1,0 +1,427 @@
+---
+description: Card quality evaluation and generation guidelines for all game categories
+alwaysApply: true
+---
+
+# Card Quality Evaluation Framework
+
+## Overview
+
+This framework defines how to evaluate existing cards and generate new ones. Each category has different goals, so the same question can be excellent for one category and terrible for another.
+
+## Common Rules (All Categories)
+
+### Required (Pass/Fail)
+
+| Rule | Description |
+|------|-------------|
+| **Grammar** | No spelling errors, proper punctuation, question marks where needed |
+| **Clarity** | Meaning is unambiguous, easy to understand on first read |
+| **Open-ended** | Invites discussion or action, not just yes/no answers |
+| **Appropriate** | No hate speech, discrimination, or content that could cause harm |
+
+### Universal Quality Metrics (1-5 scale)
+
+| Metric | Description |
+|--------|-------------|
+| **Uniqueness** | Not a cliché or overused question |
+| **Engagement** | Will people actually want to answer/discuss this? |
+| **Replayability** | Can this card be drawn multiple times without getting stale? |
+
+## Category-Specific Evaluation
+
+### Scoring Weights Matrix
+
+Each category prioritizes different qualities. Score from 1-5, then multiply by weight.
+
+```
+                    Connection  Vulnerability  Moral  Fun/Energy  Shock
+Dating                  5           3           1        2         1
+Deep Talk               3           5           3        1         1
+Hot Topics              2           2           5        2         3
+Buzzed                  2           1           1        5         3
+Most Likely             3           1           1        5         3
+Never Have I Ever       2           3           1        4         5
+Truth or Drink          3           4           2        3         4
+Would You Rather        2           1           3        4         2
+Pick Your Poison        1           1           3        4         3
+Pictionary Adult        1           1           1        5         2
+```
+
+### Category Deep Dive
+
+#### Dating (Love on the Rocks)
+
+**Primary Goal**: Build genuine connection and assess romantic compatibility
+
+**Focus On**:
+- Questions that reveal values, life goals, relationship styles
+- Vulnerability without being too heavy
+- Understanding how someone loves and wants to be loved
+
+**Avoid**:
+- Generic icebreakers ("What's your favorite color?")
+- Questions that work for any social context
+- Too sexual too fast (save for higher difficulty)
+
+```
+// ❌ BAD - Too generic, could ask anyone
+"What's a book everyone should read?"
+
+// ✅ GOOD - Dating-specific, reveals compatibility
+"What does your ideal Sunday morning with a partner look like?"
+```
+
+---
+
+#### Deep Talk (Rum & Reflection)
+
+**Primary Goal**: Facilitate meaningful, introspective conversations
+
+**Focus On**:
+- Vulnerability and emotional depth
+- Self-reflection and personal growth
+- Life philosophy and values
+- Questions that make people think deeply
+
+**Avoid**:
+- Surface-level small talk
+- Questions with "correct" answers
+- Anything that could be answered in one word
+
+```
+// ❌ BAD - Too simple, no depth
+"What's your favorite movie?"
+
+// ✅ GOOD - Invites reflection
+"What belief have you held onto that you know might be wrong?"
+```
+
+---
+
+#### Hot Topics (Tequila & Taboos)
+
+**Primary Goal**: Spark debate on controversial or morally complex topics
+
+**Focus On**:
+- Ethical dilemmas with no clear right answer
+- Controversial opinions people usually avoid
+- Topics that reveal moral frameworks
+- Questions that divide the room
+
+**Avoid**:
+- Topics with obvious consensus
+- Anything too politically charged that kills the mood
+- Questions that could genuinely offend or hurt
+
+```
+// ❌ BAD - Too easy, everyone agrees
+"Should people be kind to each other?"
+
+// ✅ GOOD - Genuine moral dilemma
+"Is it ethical to lie to protect someone's feelings?"
+```
+
+---
+
+#### Buzzed (BrandyStorm)
+
+**Primary Goal**: Maximum fun, energy, and laughter
+
+**Focus On**:
+- Silly, absurd, or embarrassing scenarios
+- Actions and challenges, not just questions
+- Group participation and chaos
+- Light-hearted roasting opportunities
+
+**Avoid**:
+- Serious or heavy topics
+- Anything requiring deep thought
+- Questions that slow down the energy
+
+```
+// ❌ BAD - Too serious for a drinking game
+"What's your biggest regret in life?"
+
+// ✅ GOOD - Fun and energetic
+"Everyone point to who would survive the longest in a zombie apocalypse. Minority drinks!"
+```
+
+---
+
+#### Most Likely (Shots Fired)
+
+**Primary Goal**: Playful group dynamics and fun predictions
+
+**Focus On**:
+- "Who would most likely..." format
+- Funny, relatable scenarios
+- Light roasting among friends
+- Scenarios everyone can vote on
+
+**Avoid**:
+- Mean-spirited or hurtful scenarios
+- Things only one person could possibly be
+- Too personal or embarrassing
+
+```
+// ❌ BAD - Could be hurtful
+"Who is most likely to die alone?"
+
+// ✅ GOOD - Playful and fun
+"Who is most likely to accidentally send a text to the wrong person?"
+```
+
+---
+
+#### Never Have I Ever (Champagne & Plot Twists)
+
+**Primary Goal**: Reveal secrets and surprising experiences
+
+**Focus On**:
+- Experiences that are surprising but relatable
+- Mild embarrassment and confession
+- Things that will split the group (some have, some haven't)
+- Escalating spiciness with difficulty
+
+**Avoid**:
+- Things everyone has obviously done
+- Things no one has done
+- Overly traumatic or serious experiences
+
+```
+// ❌ BAD - Everyone has
+"Never have I ever eaten pizza"
+
+// ❌ BAD - No one has
+"Never have I ever been to Mars"
+
+// ✅ GOOD - Will split the group
+"Never have I ever pretended to be sick to skip plans"
+```
+
+---
+
+#### Pick Your Poison (Booze Roulette)
+
+**Primary Goal**: Force impossible choices between two bad options
+
+**Focus On**:
+- Two genuinely terrible options
+- Creative and absurd scenarios
+- Options that are equally bad in different ways
+- No obvious "better" choice
+
+**Avoid**:
+- One option clearly worse than the other
+- Options that aren't actually that bad
+- Repetitive formats
+
+```
+// ❌ BAD - One is obviously worse
+"Would you rather stub your toe or lose a limb?"
+
+// ✅ GOOD - Genuinely difficult
+"Would you rather always have to say everything on your mind out loud, or never be able to speak again?"
+```
+
+---
+
+#### Truth or Drink (Truth & Tonic)
+
+**Primary Goal**: Confessions worth drinking to avoid
+
+**Focus On**:
+- Questions people might actually refuse to answer
+- Revealing secrets or embarrassing truths
+- Escalating intensity with difficulty levels
+- The tension of "will they answer or drink?"
+
+**Avoid**:
+- Easy questions everyone would answer
+- Questions too traumatic to be fun
+- Anything that feels like an interrogation
+
+```
+// ❌ BAD - Too easy to answer
+"What's your favorite food?"
+
+// ✅ GOOD - Might choose to drink instead
+"What's the biggest lie you've told someone in this room?"
+```
+
+---
+
+#### Would You Rather (Beer or Bourbon)
+
+**Primary Goal**: Present genuine dilemmas with interesting trade-offs
+
+**Focus On**:
+- Two options that are hard to choose between
+- Scenarios that reveal preferences and values
+- Absurd hypotheticals that spark discussion
+- Options that divide opinions
+
+**Avoid**:
+- One option obviously better
+- Boring or mundane choices
+- Options that are too similar
+
+```
+// ❌ BAD - Obvious choice
+"Would you rather have $1 million or $10?"
+
+// ✅ GOOD - Genuine dilemma
+"Would you rather know when you'll die or how you'll die?"
+```
+
+---
+
+#### Pictionary Adult (Tipsy Doodles)
+
+**Primary Goal**: Provide fun, challenging things to draw
+
+**Focus On**:
+- Concepts that are drawable but challenging
+- Adult humor and innuendo
+- Mix of easy and difficult concepts
+- Things that will cause funny misinterpretations
+
+**Avoid**:
+- Abstract concepts impossible to draw
+- Too easy/obvious items
+- Offensive content
+
+```
+// ❌ BAD - Too abstract
+"Draw the meaning of life"
+
+// ✅ GOOD - Drawable and funny
+"Draw 'walk of shame'"
+```
+
+## Difficulty Levels (Card Property)
+
+Difficulty is a **property of each card**, not a scoring metric. It indicates the **intensity of the primary focus** for that category.
+
+| Level | Meaning |
+|-------|---------|
+| 1 | Light intensity of primary focus |
+| 2 | Medium intensity of primary focus |
+| 3 | Maximum intensity of primary focus |
+
+### What Difficulty Means Per Category
+
+| Category | Difficulty 1 | Difficulty 3 |
+|----------|--------------|--------------|
+| **Dating** | Light connection questions | Deep compatibility/intimacy questions |
+| **Deep Talk** | Gentle self-reflection | Raw vulnerability, life-changing moments |
+| **Hot Topics** | Mild debate topics | Highly divisive moral dilemmas |
+| **Buzzed** | Fun and silly | Maximum chaos and embarrassment |
+| **Most Likely** | Safe playful guesses | Spicy roasts |
+| **Never Have I Ever** | Common experiences | Shocking secrets |
+| **Truth or Drink** | Easy confessions | Risky truths people might drink to avoid |
+| **Would You Rather** | Fun hypotheticals | Impossible existential dilemmas |
+| **Pick Your Poison** | Mildly bad options | Genuinely terrible choices |
+| **Pictionary Adult** | Suggestive concepts | Explicitly adult themes |
+
+### Usage
+
+When generating cards, specify difficulty as a filter:
+```
+"Generate 10 difficulty 3 cards for Hot Topics"
+→ Creates high moral complexity, divisive debate questions
+
+"Generate 10 difficulty 1 cards for Dating"
+→ Creates light, comfortable icebreaker connection questions
+```
+
+## AI Evaluation Instructions
+
+When evaluating a card:
+
+1. **Check Common Rules First** - Fail immediately if grammar/clarity issues
+2. **Identify Category** - Apply category-specific weights
+3. **Score Each Metric** - 1-5 scale
+4. **Calculate Weighted Score** - Multiply by category weights
+5. **Flag Issues** - Note specific problems and suggestions
+
+### Evaluation Output Format
+
+```json
+{
+  "card": "Original card text",
+  "category": "category-id",
+  "currentDifficulty": 1,
+  "suggestedDifficulty": 2,
+  "passesCommonRules": true/false,
+  "issues": ["list of problems"],
+  "scores": {
+    "connection": 4,
+    "vulnerability": 3,
+    "moral": 1,
+    "funEnergy": 2,
+    "shock": 1,
+    "uniqueness": 4,
+    "engagement": 5
+  },
+  "weightedScore": 72,
+  "recommendation": "keep" | "revise" | "remove",
+  "suggestedRevision": "Improved version if needed"
+}
+```
+
+Note: `suggestedDifficulty` helps identify if a card is labeled wrong (e.g., a deep question marked as difficulty 1).
+```
+
+## AI Generation Instructions
+
+When generating new cards:
+
+1. **Know the Category** - Understand primary and secondary focus
+2. **Check Uniqueness** - Don't duplicate existing cards
+3. **Match Difficulty** - Generate for specific difficulty level
+4. **Apply Category Rules** - Use good/bad examples as guide
+5. **Self-Evaluate** - Run through evaluation before outputting
+
+### Generation Prompt Template
+
+```
+Generate [N] new cards for [CATEGORY] at difficulty [1-3].
+
+Requirements:
+- Primary focus: [category primary focus]
+- Difficulty [X] means: [intensity description for this category]
+- Avoid: [category avoid list]
+- Format: { "text": "...", "difficulty": X }
+- Must pass all common rules
+- Should score 70+ on weighted evaluation
+
+Example for "Generate 5 cards for Hot Topics at difficulty 3":
+→ Primary focus: Moral challenge, debate potential
+→ Difficulty 3 means: Highly divisive moral dilemmas
+→ Output: Questions that will genuinely divide the room on ethics
+```
+
+## Common Grammar Fixes
+
+| Error Pattern | Fix |
+|--------------|-----|
+| Missing question mark | Add `?` to all questions |
+| "Whats" | "What's" |
+| "tree" (as number) | "three" |
+| "tought" | "thought" |
+| "teache" | "teach" |
+| "understod" | "understood" |
+| "sonner" | "sooner" |
+| "perpective" | "perspective" |
+| "trings" | "things" |
+
+## Quality Thresholds
+
+| Weighted Score | Action |
+|----------------|--------|
+| 80+ | Excellent - Keep as is |
+| 60-79 | Good - Minor revisions optional |
+| 40-59 | Mediocre - Needs revision |
+| Below 40 | Poor - Remove or completely rewrite |

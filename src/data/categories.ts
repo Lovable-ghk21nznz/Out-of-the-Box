@@ -4,7 +4,6 @@ import deepTalkData from "./games/deep-talk/deep-talk.json";
 import hotTopicsData from "./games/hot-topics/hot-topics.json";
 import mostLikelyData from "./games/most-likely/most-likely.json";
 import neverHaveIData from "./games/never-have-i-ever/never-have-i-ever.json";
-import parallelUniverseData from "./games/parallel-universe/parallel-universe.json";
 import pickYourPoisonData from "./games/pick-your-poison/pick-your-poison.json";
 import pictionaryAdultData from "./games/pictionary-adult/pictionary-adult.json";
 import truthOrDrinkData from "./games/truth-or-drink/truth-or-drink.json";
@@ -23,7 +22,7 @@ export interface Game {
 export const games: Game[] = [
   {
     id: "buzzed",
-    name: "Buzzed",
+    name: "BrandyStorm",
     description: "Classic drinking game fun",
     emoji: "🍻",
     cardCount: buzzedData.cards.length,
@@ -32,7 +31,7 @@ export const games: Game[] = [
   },
   {
     id: "dating",
-    name: "Dating",
+    name: "Love on the Rocks",
     description: "Dating game fun",
     emoji: "💑",
     cardCount: datingData.cards.length,
@@ -41,7 +40,7 @@ export const games: Game[] = [
   },
   {
     id: "deep-talk",
-    name: "Deep Talk",
+    name: "Rum & Reflection",
     description: "Meaningful conversations starter",
     emoji: "✨",
     cardCount: deepTalkData.cards.length,
@@ -50,7 +49,7 @@ export const games: Game[] = [
   },
   {
     id: "hot-topics",
-    name: "Hot Topics",
+    name: "Tequila & Taboos",
     description: "Debate controversial topics",
     emoji: "🔥",
     cardCount: hotTopicsData.cards.length,
@@ -59,7 +58,7 @@ export const games: Game[] = [
   },
   {
     id: "most-likely",
-    name: "Most Likely",
+    name: "Shots Fired",
     description: "Guess the most likely outcome",
     emoji: "🤔",
     cardCount: mostLikelyData.cards.length,
@@ -68,7 +67,7 @@ export const games: Game[] = [
   },
   {
     id: "never-have-i-ever",
-    name: "Never Have I Ever",
+    name: "Champagne & Plot Twists",
     description: "Discover secrets and shared experiences",
     emoji: "🙈",
     cardCount: neverHaveIData.cards.length,
@@ -76,17 +75,8 @@ export const games: Game[] = [
     color: "linear-gradient(135deg, hsl(280 65% 60%), hsl(290 70% 65%))",
   },
   {
-    id: "parallel-universe",
-    name: "Parallel Universe",
-    description: "Explore hypothetical worlds",
-    emoji: "🌌",
-    cardCount: parallelUniverseData.cards.length,
-    gradient: "var(--gradient-cool)",
-    color: "linear-gradient(135deg, hsl(270 70% 55%), hsl(280 75% 60%))",
-  },
-  {
     id: "pick-your-poison",
-    name: "Pick Your Poison",
+    name: "Booze Roulette",
     description: "Choose between two terrible options",
     emoji: "☠️",
     cardCount: pickYourPoisonData.cards.length,
@@ -95,7 +85,7 @@ export const games: Game[] = [
   },
   {
     id: "pictionary-adult",
-    name: "Pictionary Adult",
+    name: "Tipsy Doodles",
     description: "Draw challenging and funny scenarios",
     emoji: "🎨",
     cardCount: pictionaryAdultData.cards.length,
@@ -104,7 +94,7 @@ export const games: Game[] = [
   },
   {
     id: "truth-or-drink",
-    name: "Truth or Drink",
+    name: "Truth & Tonic",
     description: "Answer honestly or take a sip",
     emoji: "🍹",
     cardCount: truthOrDrinkData.cards.length,
@@ -113,7 +103,7 @@ export const games: Game[] = [
   },
   {
     id: "would-you-rather",
-    name: "Would You Rather",
+    name: "Beer or Bourbon",
     description: "Impossible choices and fun dilemmas",
     emoji: "🤔",
     cardCount: wouldYouRatherData.cards.length,

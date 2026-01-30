@@ -19,18 +19,18 @@ alwaysApply: true
 
 ### Game Categories (Drink Themes)
 
-| Category | Drink Theme | Original Name |
-|----------|-------------|---------------|
-| Dating | Love on the Rocks | Dating |
-| Never Have I Ever | Champagne & Plot Twists | Never Have I Ever |
-| Would You Rather | Beer or Bourbon | Would You Rather |
-| Truth or Drink | Truth & Tonic | Truth or Drink |
-| Pictionary Adult | Tipsy Doodles | Pictionary Adult |
-| Most Likely | Shots Fired | Most Likely |
-| Pick Your Poison | Booze Roulette | Pick Your Poison |
-| Deep Talk | Rum & Reflection | Deep Talk |
-| Hot Topics | Tequila & Taboos | Hot Topics |
-| Buzzed | BrandyStorm | Buzzed |
+| Category          | Drink Theme             |
+| ----------------- | ----------------------- |
+| Dating            | Love on the Rocks       |
+| Never Have I Ever | Champagne & Plot Twists |
+| Would You Rather  | Beer or Bourbon         |
+| Truth or Drink    | Truth & Tonic           |
+| Pictionary Adult  | Tipsy Doodles           |
+| Most Likely       | Shots Fired             |
+| Pick Your Poison  | Booze Roulette          |
+| Deep Talk         | Rum & Reflection        |
+| Hot Topics        | Tequila & Taboos        |
+| Buzzed            | BrandyStorm             |
 
 ## Coding Standards
 
@@ -44,7 +44,7 @@ const category2 = { id: 2, name: "Champagne & Plot Twists" };
 // ✅ GOOD - Centralized data structure
 const CATEGORIES = [
   { id: "dating", name: "Love on the Rocks", icon: "🍸" },
-  { id: "never-have-i-ever", name: "Champagne & Plot Twists", icon: "🥂" }
+  { id: "never-have-i-ever", name: "Champagne & Plot Twists", icon: "🥂" },
 ];
 ```
 
@@ -80,7 +80,8 @@ All game JSON files should follow the same structure:
 
 **Tone**: Fun, playful, social, light-hearted
 **Target**: Young adults 21+ looking for party entertainment
-**Key phrases**: 
+**Key phrases**:
+
 - "Sip Happens" (playful on "Shit Happens")
 - "Where every card is a cocktail of fun"
 - "Simple rules, unforgettable nights"
@@ -96,10 +97,10 @@ All game JSON files should follow the same structure:
 
 ```typescript
 // ❌ BAD - Boring, generic
-description: "A card game with questions"
+description: "A card game with questions";
 
 // ✅ GOOD - On-brand, engaging
-description: "Mix drinks, shuffle cards, and let the fun pour out with your crew"
+description: "Mix drinks, shuffle cards, and let the fun pour out with your crew";
 ```
 
 ## Architecture Principles
@@ -113,6 +114,7 @@ description: "Mix drinks, shuffle cards, and let the fun pour out with your crew
 ## Feature Development Checklist
 
 When adding new features:
+
 - [ ] Does it keep the gameplay simple?
 - [ ] Is it reusable across categories?
 - [ ] Does it align with the marketing message?
