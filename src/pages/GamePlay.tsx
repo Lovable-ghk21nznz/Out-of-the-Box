@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ChevronDown } from "lucide-react";
 import { PlayingCard } from "@/components/PlayingCard";
 import { games } from "@/data/categories";
 import { motion } from "framer-motion";
@@ -11,44 +11,64 @@ import {
   CarouselItem,
   CarouselApi,
 } from "@/components/ui/carousel";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuCheckboxItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 // Import all card data
-import buzzedData from "@/data/games/buzzed/buzzed.json";
-import datingData from "@/data/games/dating/dating.json";
-import deepTalkData from "@/data/games/deep-talk/deep-talk.json";
-import hotTopicsData from "@/data/games/hot-topics/hot-topics.json";
-import mostLikelyData from "@/data/games/most-likely/most-likely.json";
-import neverHaveIData from "@/data/games/never-have-i-ever/never-have-i-ever.json";
-import parallelUniverseData from "@/data/games/parallel-universe/parallel-universe.json";
-import pickYourPoisonData from "@/data/games/pick-your-poison/pick-your-poison.json";
-import pictionaryAdultData from "@/data/games/pictionary-adult/pictionary-adult.json";
-import truthOrDrinkData from "@/data/games/truth-or-drink/truth-or-drink.json";
-import wouldYouRatherData from "@/data/games/would-you-rather/would-you-rather.json";
+import brandystormData from "@/data/games/brandystorm/brandystorm.json";
+import loveOnTheRocksData from "@/data/games/love-on-the-rocks/love-on-the-rocks.json";
+import rumAndReflectionData from "@/data/games/rum-and-reflection/rum-and-reflection.json";
+import tequilaAndTaboosData from "@/data/games/tequila-and-taboos/tequila-and-taboos.json";
+import shotsFiredData from "@/data/games/shots-fired/shots-fired.json";
+import champagneAndPlotTwistsData from "@/data/games/champagne-and-plot-twists/champagne-and-plot-twists.json";
+import boozeRouletteData from "@/data/games/booze-roulette/booze-roulette.json";
+import tipsyDoodlesData from "@/data/games/tipsy-doodles/tipsy-doodles.json";
+import truthAndTonicData from "@/data/games/truth-and-tonic/truth-and-tonic.json";
+import beerOrBourbonData from "@/data/games/beer-or-bourbon/beer-or-bourbon.json";
+
+interface Card {
+  text: string;
+  difficulty: number;
+}
 
 // Map game IDs to their card data
-const gameCardData: Record<string, { cards: string[] }> = {
-  buzzed: buzzedData,
-  dating: datingData,
-  "deep-talk": deepTalkData,
-  "hot-topics": hotTopicsData,
-  "most-likely": mostLikelyData,
-  "never-have-i-ever": neverHaveIData,
-  "parallel-universe": parallelUniverseData,
-  "pick-your-poison": pickYourPoisonData,
-  "pictionary-adult": pictionaryAdultData,
-  "truth-or-drink": truthOrDrinkData,
-  "would-you-rather": wouldYouRatherData,
+const gameCardData: Record<string, { cards: Card[] }> = {
+  "brandystorm": brandystormData,
+  "love-on-the-rocks": loveOnTheRocksData,
+  "rum-and-reflection": rumAndReflectionData,
+  "tequila-and-taboos": tequilaAndTaboosData,
+  "shots-fired": shotsFiredData,
+  "champagne-and-plot-twists": champagneAndPlotTwistsData,
+  "booze-roulette": boozeRouletteData,
+  "tipsy-doodles": tipsyDoodlesData,
+  "truth-and-tonic": truthAndTonicData,
+  "beer-or-bourbon": beerOrBourbonData,
+};
+
+const difficultyLabels: Record<number, string> = {
+  1: "Level 1",
+  2: "Level 2",
+  3: "Level 3",
 };
 
 const GamePlay = () => {
   const navigate = useNavigate();
   const { gameId } = useParams();
-  const [cards, setCards] = useState<string[]>([]);
+  const [allCards, setAllCards] = useState<Card[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
+  const [selectedLevels, setSelectedLevels] = useState<Set<number>>(new Set([1, 2, 3]));
 
   const game = games.find((g) => g.id === gameId);
+
+  const filteredCards = useMemo(() => {
+    return allCards.filter((card) => selectedLevels.has(card.difficulty));
+  }, [allCards, selectedLevels]);
 
   useEffect(() => {
     const loadCards = () => {
@@ -60,7 +80,7 @@ const GamePlay = () => {
           throw new Error(`No card data found for game: ${gameId}`);
 
         const shuffled = [...cardData.cards].sort(() => Math.random() - 0.5);
-        setCards(shuffled);
+        setAllCards(shuffled);
       } catch (error) {
         console.error("Error loading cards:", error);
       } finally {
@@ -79,6 +99,27 @@ const GamePlay = () => {
     });
   }, [carouselApi]);
 
+  useEffect(() => {
+    if (carouselApi) {
+      carouselApi.scrollTo(0);
+      setCurrentIndex(0);
+    }
+  }, [selectedLevels, carouselApi]);
+
+  const toggleLevel = (level: number) => {
+    setSelectedLevels((prev) => {
+      const next = new Set(prev);
+      if (next.has(level)) {
+        if (next.size > 1) {
+          next.delete(level);
+        }
+      } else {
+        next.add(level);
+      }
+      return next;
+    });
+  };
+
   if (!game) {
     navigate("/");
     return null;
@@ -92,26 +133,48 @@ const GamePlay = () => {
           animate={{ opacity: 1, y: 0 }}
           className="mb-6"
         >
-          <Button
-            variant="ghost"
-            onClick={() => navigate("/")}
-            className="mb-4 text-foreground hover:bg-muted"
-          >
-            <ArrowLeft className="w-4 h-4 mr-2" />
-            Back
-          </Button>
+          <div className="flex items-center justify-between mb-4">
+            <Button
+              variant="ghost"
+              onClick={() => navigate("/")}
+              className="text-foreground hover:bg-muted"
+            >
+              <ArrowLeft className="w-4 h-4 mr-2" />
+              Back
+            </Button>
+
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button variant="outline" size="sm" className="gap-2">
+                  Level
+                  <ChevronDown className="w-4 h-4" />
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end">
+                {[1, 2, 3].map((level) => (
+                  <DropdownMenuCheckboxItem
+                    key={level}
+                    checked={selectedLevels.has(level)}
+                    onCheckedChange={() => toggleLevel(level)}
+                  >
+                    {difficultyLabels[level]}
+                  </DropdownMenuCheckboxItem>
+                ))}
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
 
           <div className="mb-6">
             <h1 className="text-2xl font-bold text-foreground mb-1">
               {game.name}
             </h1>
             <p className="text-sm text-muted-foreground">
-              Card {currentIndex + 1} of {cards.length}
+              Card {filteredCards.length > 0 ? currentIndex + 1 : 0} of {filteredCards.length}
             </p>
           </div>
         </motion.div>
 
-        {!isLoading && cards.length > 0 && (
+        {!isLoading && filteredCards.length > 0 && (
           <Carousel
             setApi={setCarouselApi}
             opts={{
@@ -120,15 +183,15 @@ const GamePlay = () => {
             className="w-full"
           >
             <CarouselContent>
-              {gameId === "pick-your-poison"
-                ? // Show pairs of options on single card for Pick Your Poison
-                  cards.reduce((acc, card, index) => {
+              {gameId === "booze-roulette"
+                ? // Show pairs of options on single card for Booze Roulette
+                  filteredCards.reduce((acc, card, index) => {
                     if (index % 2 === 0) {
                       acc.push(
                         <CarouselItem key={index}>
                           <PlayingCard
-                            content={card}
-                            secondContent={cards[index + 1]}
+                            content={card.text}
+                            secondContent={filteredCards[index + 1]?.text}
                             color={game.color}
                           />
                         </CarouselItem>
@@ -137,13 +200,19 @@ const GamePlay = () => {
                     return acc;
                   }, [] as JSX.Element[])
                 : // Show single cards for other games
-                  cards.map((card, index) => (
+                  filteredCards.map((card, index) => (
                     <CarouselItem key={index}>
-                      <PlayingCard content={card} color={game.color} />
+                      <PlayingCard content={card.text} color={game.color} />
                     </CarouselItem>
                   ))}
             </CarouselContent>
           </Carousel>
+        )}
+
+        {!isLoading && filteredCards.length === 0 && (
+          <div className="text-center py-12 text-muted-foreground">
+            No cards match the selected levels
+          </div>
         )}
       </div>
     </div>
