@@ -1,74 +1,393 @@
 {
+  "prompt": "Order from best to worst:",
   "cards": [
-    { "text": "Always have to say everything you're thinking out loud", "difficulty": 1 },
-    { "text": "Never be able to speak again", "difficulty": 1 },
-    { "text": "Have everyone able to read your thoughts", "difficulty": 1 },
-    { "text": "Never be able to hide your emotions on your face", "difficulty": 1 },
-    { "text": "Always be 10 minutes late", "difficulty": 1 },
-    { "text": "Always be 20 minutes early", "difficulty": 1 },
-    { "text": "Never use social media again", "difficulty": 1 },
-    { "text": "Never watch TV or movies again", "difficulty": 1 },
-    { "text": "Have a rewind button for your life", "difficulty": 1 },
-    { "text": "Have a pause button for your life", "difficulty": 1 },
-    { "text": "Always be slightly too hot", "difficulty": 1 },
-    { "text": "Always be slightly too cold", "difficulty": 1 },
-    { "text": "Fight one horse-sized duck", "difficulty": 1 },
-    { "text": "Fight 100 duck-sized horses", "difficulty": 1 },
-    { "text": "Never eat your favorite food again", "difficulty": 1 },
-    { "text": "Only eat your favorite food for every meal", "difficulty": 1 },
-    { "text": "Live without music", "difficulty": 1 },
-    { "text": "Live without movies", "difficulty": 1 },
-    { "text": "Know how you die", "difficulty": 1 },
-    { "text": "Know when you die", "difficulty": 1 },
-    { "text": "Be stuck in a room with your ex", "difficulty": 1 },
-    { "text": "Be stuck in a room with someone who won't stop talking", "difficulty": 1 },
-    { "text": "Give up bathing for a month", "difficulty": 1 },
-    { "text": "Give up the internet for a month", "difficulty": 1 },
-    { "text": "Always have wet socks", "difficulty": 1 },
-    { "text": "Always have a small rock in your shoe", "difficulty": 1 },
-    { "text": "Date someone with terrible hygiene but amazing personality", "difficulty": 1 },
-    { "text": "Date someone gorgeous but terrible personality", "difficulty": 1 },
-    { "text": "Have a photographic memory", "difficulty": 1 },
-    { "text": "Have unlimited creativity", "difficulty": 1 },
-    { "text": "Be famous but hated", "difficulty": 1 },
-    { "text": "Be unknown but loved", "difficulty": 1 },
-    { "text": "Lose all your memories from birth to now", "difficulty": 1 },
-    { "text": "Never be able to make new memories", "difficulty": 1 },
-    { "text": "Have free Wi-Fi wherever you go", "difficulty": 1 },
-    { "text": "Have free coffee whenever you want", "difficulty": 1 },
-    { "text": "Always have to tell the truth", "difficulty": 1 },
-    { "text": "Always have to lie", "difficulty": 1 },
-    { "text": "Be able to speak all languages", "difficulty": 1 },
-    { "text": "Be able to talk to animals", "difficulty": 1 },
-    { "text": "Give up cheese forever", "difficulty": 1 },
-    { "text": "Give up chocolate forever", "difficulty": 1 },
-    { "text": "Have no elbows", "difficulty": 1 },
-    { "text": "Have no knees", "difficulty": 1 },
-    { "text": "Be trapped in a romantic comedy", "difficulty": 1 },
-    { "text": "Be trapped in a horror movie", "difficulty": 1 },
-    { "text": "Have a constant itch you can never scratch", "difficulty": 1 },
-    { "text": "Have a constant sneeze you can never release", "difficulty": 1 },
-    { "text": "Only be able to whisper", "difficulty": 1 },
-    { "text": "Only be able to shout", "difficulty": 1 },
-    { "text": "Have a permanent unibrow", "difficulty": 1 },
-    { "text": "Have no eyebrows at all", "difficulty": 1 },
-    { "text": "Never use emojis again", "difficulty": 1 },
-    { "text": "Only communicate using emojis", "difficulty": 1 },
-    { "text": "Be famous on TikTok", "difficulty": 1 },
-    { "text": "Be famous on LinkedIn", "difficulty": 1 },
-    { "text": "Have your search history made public", "difficulty": 1 },
-    { "text": "Have your bank statement made public", "difficulty": 1 },
-    { "text": "Live in a world with no music", "difficulty": 1 },
-    { "text": "Live in a world with no art", "difficulty": 1 },
-    { "text": "Always smell like garlic", "difficulty": 1 },
-    { "text": "Always smell like fish", "difficulty": 1 },
-    { "text": "Have hiccups for the rest of your life", "difficulty": 1 },
-    { "text": "Always feel like you need to sneeze", "difficulty": 1 },
-    { "text": "Only be able to use a flip phone", "difficulty": 1 },
-    { "text": "Only be able to use a computer from 1998", "difficulty": 1 },
-    { "text": "Be stuck in traffic for 2 hours daily", "difficulty": 1 },
-    { "text": "Have a 2-hour commute by public transport", "difficulty": 1 },
-    { "text": "Never be able to eat hot food again", "difficulty": 1 },
-    { "text": "Never be able to eat cold food again", "difficulty": 1 }
+    {
+      "options": ["know how you die", "when you die"],
+      "difficulty": 1
+    },
+    {
+      "options": ["lose all memories", "never make new ones"],
+      "difficulty": 1
+    },
+    {
+      "options": ["be able to fly", "teleport", "time travel", "be invisible"],
+      "difficulty": 1
+    },
+    {
+      "options": ["read minds", "move things with your mind"],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "live without music",
+        "without TV (movies, series, etc)",
+        "live without internet",
+        "have to do household chores by hand"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "have unlimited money",
+        "unlimited time",
+        "know every one you want",
+        "eat from any restaurant for free and without gaining weight"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "explore space",
+        "go to the ocean depths",
+        "travel to the past"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "know all languages",
+        "play every instrument",
+        "talk with animals",
+        "remember everything from the last year"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "be incredibly smart",
+        "extremely attractive",
+        "be a master manipulator"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "always say what you think",
+        "never speak",
+        "loose ability to read",
+        "have kids be able to read your mind"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": ["give up coffee", "social media", "sugar", "alcohol"],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "always have no traffic",
+        "never have to stand in line again",
+        "never wait on restaurants to be seated and served",
+        "other people always arrive on time"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "get $10,000",
+        "your best friend get $100,000",
+        "a homeless person get $10 million"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": ["have a pet dinosaur", "a pet dragon", "a pet unicorn"],
+      "difficulty": 1
+    },
+
+    {
+      "options": [
+        "have sex with a sheep and no one knows about it",
+        "dont but everyone believes you did"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": [
+        "publicly expose your partner's biggest secret",
+        "have them expose yours"
+      ],
+      "difficulty": 2
+    },
+    {
+      "options": [
+        "never have good sex with someone you love",
+        "have great sex with someone you don't love"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": [
+        "have your past internet history made public",
+        "stab someone without getting caught (he would survive)"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": ["be chronically under-dressed", "overdressed"],
+      "difficulty": 1
+    },
+    {
+      "options": ["have a personal maid", "a personal chef"],
+      "difficulty": 1
+    },
+
+    {
+      "options": [
+        "wear the same socks for a month",
+        "the same underwear for a week"
+      ],
+      "difficulty": 2
+    },
+    {
+      "options": [
+        "walk in on your parents having sex",
+        "have them walk in on you having sex"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": ["find true love today", "win the lottery next year"],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "have the ability to erase your worst memory by reliving it once",
+        "remain as you are"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": [
+        "be the creator of an idea that changes the world but die unknown,",
+        "be famous your whole life but leave no impact"
+      ],
+      "difficulty": 2
+    },
+    {
+      "options": [
+        "your child inherit all your worst traits",
+        "none of your best traits"
+      ],
+      "difficulty": 2
+    },
+    {
+      "options": ["have a perfect memory for faces", "for names"],
+      "difficulty": 1
+    },
+    {
+      "options": ["be the best at one thing", "above average at everything"],
+      "difficulty": 1
+    },
+    {
+      "options": ["have a house by the beach", "a cabin in the mountains"],
+      "difficulty": 1
+    },
+    {
+      "options": ["never feel cold", "never feel too hot"],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "have dinner with a historical figure",
+        "a fictional character"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "wake up at 5 a.m. every day",
+        "go to bed at 2 a.m. every night"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "have a job you love that pays poorly",
+        "a job you hate that pays well"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "have a tiny house in your dream city",
+        "a mansion in the middle of nowhere"
+      ],
+      "difficulty": 1
+    },
+
+    {
+      "options": [
+        "be able to control fire",
+        "control water",
+        "control air",
+        "control earth",
+        "control metal"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "have a clone that does your chores",
+        "a robot that does your job"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "never be able to use a phone again",
+        "never use a car again"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": ["be stuck in a lift with your boss", "with your in-laws"],
+      "difficulty": 2
+    },
+    {
+      "options": ["your partner see your browser history", "your notes app"],
+      "difficulty": 2
+    },
+    {
+      "options": [
+        "be the smartest person in the room who no one listens to",
+        "the least smart who everyone trusts"
+      ],
+      "difficulty": 2
+    },
+    {
+      "options": [
+        "have to relive your worst day once a year",
+        "have a random day erased from your memory every year"
+      ],
+      "difficulty": 2
+    },
+    {
+      "options": [
+        "live forever and watch everyone you love die",
+        "die first and never know what happens to them"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": [
+        "have caused someone's death by accident",
+        "have saved someone who later does something unforgivable"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": [
+        "know that free will is an illusion",
+        "live as if it isn't and never know for sure"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": [
+        "save a stranger's life and lose a limb",
+        "keep your limb and they die"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": [
+        "have your mind uploaded to live forever in a machine",
+        "die with your body and never know what comes next"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": [
+        "have a child who hates you but is successful",
+        "one who loves you but fails at everything"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": [
+        "have unlimited empathy that exhausts you",
+        "no empathy and never understand others"
+      ],
+      "difficulty": 3
+    },
+    {
+      "options": [
+        "Lose your sense of sight",
+        "Lose your sense of hearing",
+        "Lose your sense of touch",
+        "Lose your sense of taste",
+        "Lose your sense of smell"
+      ],
+      "difficulty": 1
+    },
+
+    {
+      "options": ["Fight one horse-sized duck", "Fight 100 duck-sized horses"],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "Fight 1 hyena",
+        "Fight 2 wild dogs",
+        "Fight 3 snakes",
+        "Fight 10 rats"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "Always have wet socks",
+        "Always have a small rock in your shoe",
+        "Always feel like you need to sneeze"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": ["Have a photographic memory", "Have unlimited creativity"],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "Give up cheese forever",
+        "Give up chocolate forever",
+        "Give up meat forever",
+        "Give up alcohol forever"
+      ],
+      "difficulty": 1
+    },
+    {
+      "options": ["Have no elbows", "Have no knees"],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "Be trapped in a romantic comedy",
+        "Be trapped in a horror movie"
+      ],
+      "difficulty": 1
+    },
+
+    {
+      "options": ["Only be able to whisper", "Only be able to shout"],
+      "difficulty": 1
+    },
+    {
+      "options": ["Have a permanent unibrow", "Have no eyebrows at all"],
+      "difficulty": 1
+    },
+    {
+      "options": ["Always smell like garlic", "Always smell like fish"],
+      "difficulty": 1
+    },
+    {
+      "options": [
+        "Never be able to eat hot food again",
+        "Never be able to eat cold food again",
+        "Never be able to eat solid food again",
+        "Never be able to eat liquid food again"
+      ],
+      "difficulty": 1
+    }
   ]
 }

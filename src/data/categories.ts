@@ -3,11 +3,9 @@ import loveOnTheRocksData from "./games/love-on-the-rocks/love-on-the-rocks.json
 import rumAndReflectionData from "./games/rum-and-reflection/rum-and-reflection.json";
 import tequilaAndTaboosData from "./games/tequila-and-taboos/tequila-and-taboos.json";
 import shotsFiredData from "./games/shots-fired/shots-fired.json";
-import champagneAndPlotTwistsData from "./games/champagne-and-plot-twists/champagne-and-plot-twists.json";
-import boozeRouletteData from "./games/booze-roulette/booze-roulette.json";
 import tipsyDoodlesData from "./games/tipsy-doodles/tipsy-doodles.json";
 import truthAndTonicData from "./games/truth-and-tonic/truth-and-tonic.json";
-import beerOrBourbonData from "./games/beer-or-bourbon/beer-or-bourbon.json";
+import boozeRouletteData from "./games/booze-roulette/booze-roulette.json";
 
 export interface Game {
   id: string;
@@ -23,7 +21,7 @@ export const games: Game[] = [
   {
     id: "brandystorm",
     name: "BrandyStorm",
-    description: "Classic drinking game fun",
+    description: "Discover secrets and shared experiences",
     emoji: "🍻",
     cardCount: brandystormData.cards.length,
     gradient: "var(--gradient-sunshine)",
@@ -66,24 +64,6 @@ export const games: Game[] = [
     color: "linear-gradient(135deg, hsl(210 75% 60%), hsl(220 70% 65%))",
   },
   {
-    id: "champagne-and-plot-twists",
-    name: "Champagne & Plot Twists",
-    description: "Discover secrets and shared experiences",
-    emoji: "🙈",
-    cardCount: champagneAndPlotTwistsData.cards.length,
-    gradient: "var(--gradient-warm)",
-    color: "linear-gradient(135deg, hsl(280 65% 60%), hsl(290 70% 65%))",
-  },
-  {
-    id: "booze-roulette",
-    name: "Booze Roulette",
-    description: "Choose between two terrible options",
-    emoji: "☠️",
-    cardCount: boozeRouletteData.cards.length,
-    gradient: "var(--gradient-cool)",
-    color: "linear-gradient(135deg, hsl(140 60% 45%), hsl(150 65% 50%))",
-  },
-  {
     id: "tipsy-doodles",
     name: "Tipsy Doodles",
     description: "Draw challenging and funny scenarios",
@@ -102,12 +82,12 @@ export const games: Game[] = [
     color: "linear-gradient(135deg, hsl(175 65% 55%), hsl(185 70% 60%))",
   },
   {
-    id: "beer-or-bourbon",
-    name: "Beer or Bourbon",
-    description: "Impossible choices and fun dilemmas",
-    emoji: "🤔",
-    cardCount: beerOrBourbonData.cards.length,
+    id: "booze-roulette",
+    name: "Booze Roulette",
+    description: "Pick the best (or least worst) from the options",
+    emoji: "☠️",
+    cardCount: boozeRouletteData.cards.length,
     gradient: "var(--gradient-cool)",
-    color: "linear-gradient(135deg, hsl(210 75% 60%), hsl(220 70% 65%))",
+    color: "linear-gradient(135deg, hsl(140 60% 45%), hsl(150 65% 50%))",
   },
 ];

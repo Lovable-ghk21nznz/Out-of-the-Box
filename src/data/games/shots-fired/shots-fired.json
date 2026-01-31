@@ -1,111 +1,389 @@
 {
+  "prompt": "Who's most likely to",
   "cards": [
-    { "text": "Who's most likely to become a millionaire?", "difficulty": 1 },
-    { "text": "Who's most likely to get married next?", "difficulty": 1 },
-    { "text": "Who's most likely to get divorced next?", "difficulty": 1 },
-    { "text": "Who's most likely to have a baby next?", "difficulty": 1 },
-    { "text": "Who's most likely to not fight for a friend?", "difficulty": 1 },
-    { "text": "Who's most likely to fight for a friend?", "difficulty": 1 },
-    { "text": "Who's most likely to live abroad next?", "difficulty": 1 },
-    { "text": "Who's most likely to rob a bank?", "difficulty": 1 },
-    { "text": "Who's most likely to have sex with a past partner?", "difficulty": 1 },
-    { "text": "Who's most likely to get arrested for public indecency?", "difficulty": 1 },
-    { "text": "Who's most likely to marry someone rich and famous?", "difficulty": 1 },
-    { "text": "Who's most likely to go skinny-dipping?", "difficulty": 1 },
-    { "text": "Who's most likely to date more than one person at a time?", "difficulty": 1 },
-    { "text": "Who's most likely to survive alone on a deserted island?", "difficulty": 1 },
-    { "text": "Who's most likely to forget their best friend's birthday?", "difficulty": 1 },
-    { "text": "Who's most likely to die first in a horror film?", "difficulty": 1 },
-    { "text": "Who's most likely to dine and dash?", "difficulty": 1 },
-    { "text": "Who's most likely to drop something on the floor and still eat it?", "difficulty": 1 },
-    { "text": "Who's most likely to be late to their own wedding?", "difficulty": 1 },
-    { "text": "Who's most likely to run their own business?", "difficulty": 1 },
-    { "text": "Who's most likely to win a Nobel Peace Prize?", "difficulty": 1 },
-    { "text": "Who's most likely to own the most pets?", "difficulty": 1 },
-    { "text": "Who's most likely to have the most children?", "difficulty": 1 },
-    { "text": "Who's most likely to forget where they parked their car?", "difficulty": 1 },
-    { "text": "Who's most likely to do a silly dance in public?", "difficulty": 1 },
-    { "text": "Who's most likely to spend all their money on something silly?", "difficulty": 1 },
-    { "text": "Who's most likely to take a spontaneous road trip?", "difficulty": 1 },
-    { "text": "Who's most likely to crash a wedding?", "difficulty": 1 },
-    { "text": "Who's most likely to join a cult?", "difficulty": 1 },
-    { "text": "Who's most likely to have a secret tattoo?", "difficulty": 1 },
-    { "text": "Who's most likely to wake up in a stranger's bed?", "difficulty": 1 },
-    { "text": "Who's most likely to go back to their ex?", "difficulty": 1 },
-    { "text": "Who's most likely to cheat on their partner?", "difficulty": 1 },
-    { "text": "Who's most likely to fake their own death?", "difficulty": 1 },
-    { "text": "Who's most likely to get drunk first tonight?", "difficulty": 1 },
-    { "text": "Who's most likely to fall asleep first?", "difficulty": 1 },
-    { "text": "Who's most likely to start a fight at a party?", "difficulty": 1 },
-    { "text": "Who's most likely to sing karaoke?", "difficulty": 1 },
-    { "text": "Who's most likely to flirt their way out of a ticket?", "difficulty": 1 },
-    { "text": "Who's most likely to spill a secret after one drink?", "difficulty": 1 },
-    { "text": "Who's most likely to believe in a wild conspiracy theory?", "difficulty": 1 },
-    { "text": "Who's most likely to get blackout drunk and wake up with zero memory?", "difficulty": 1 },
-    { "text": "Who's most likely to get secretly married without telling anyone?", "difficulty": 1 },
-    { "text": "Who's most likely to get catfished by an online romance?", "difficulty": 1 },
-    { "text": "Who's most likely to still sleep with a childhood stuffed animal?", "difficulty": 1 },
-    { "text": "Who's most likely to have the messiest room ever?", "difficulty": 1 },
-    { "text": "Who's most likely to get lost on a road trip?", "difficulty": 1 },
-    { "text": "Who's most likely to kiss more than one person in a night?", "difficulty": 1 },
-    { "text": "Who's most likely to flirt with a stranger on vacation?", "difficulty": 1 },
-    { "text": "Who's most likely to have sex in a public place?", "difficulty": 1 },
-    { "text": "Who's most likely to roleplay in bed?", "difficulty": 1 },
-    { "text": "Who's most likely to have a threesome?", "difficulty": 1 },
-    { "text": "Who's most likely to have sex in a risky place?", "difficulty": 1 },
-    { "text": "Who's most likely to flirt with a teacher/professor?", "difficulty": 1 },
-    { "text": "Who's most likely to have the highest screen time?", "difficulty": 1 },
-    { "text": "Who's most likely to own a selfie stick?", "difficulty": 1 },
-    { "text": "Who's most likely to have the most money in their bank account right now?", "difficulty": 1 },
-    { "text": "Who's most likely to accidentally poison someone with terrible cooking?", "difficulty": 1 },
-    { "text": "Who's most likely to take a week to reply to a text?", "difficulty": 1 },
-    { "text": "Who's most likely to intentionally give the wrong directions to tourists?", "difficulty": 1 },
-    { "text": "Who's most likely to ask for advice but never take it?", "difficulty": 1 },
-    { "text": "Who's most likely to cancel plans at the last moment?", "difficulty": 1 },
-    { "text": "Who's most likely to have watched the most shows on Netflix?", "difficulty": 1 },
-    { "text": "Who's most likely to have the most phone numbers in their contacts?", "difficulty": 1 },
-    { "text": "Who's most likely to prank call right now?", "difficulty": 1 },
-    { "text": "Who's most likely to get married more than once?", "difficulty": 1 },
-    { "text": "Who's most likely to get car sick?", "difficulty": 1 },
-    { "text": "Who's most likely to give the best advice?", "difficulty": 1 },
-    { "text": "Who's most likely to have read the most books?", "difficulty": 1 },
-    { "text": "Who's most likely to drop everything and travel the world?", "difficulty": 1 },
-    { "text": "Who's most likely to dress inappropriately in the office?", "difficulty": 1 },
-    { "text": "Who's most likely to sleep with a colleague?", "difficulty": 1 },
-    { "text": "Who's most likely to have the most unread work emails?", "difficulty": 1 },
-    { "text": "Who's most likely to have the funniest dating story?", "difficulty": 1 },
-    { "text": "Who's most likely to go a week without a shower?", "difficulty": 1 },
-    { "text": "Who's most likely to cut their own hair (and think it looks good)?", "difficulty": 1 },
-    { "text": "Who's most likely to survive a zombie apocalypse?", "difficulty": 1 },
-    { "text": "Who's most likely to lock themselves out of their own home?", "difficulty": 1 },
-    { "text": "Who's most likely to laugh in a serious moment?", "difficulty": 1 },
-    { "text": "Who's most likely to pretend they don't know someone when they meet them again?", "difficulty": 1 },
-    { "text": "Who's most likely to fall asleep during sex?", "difficulty": 1 },
-    { "text": "Who's most likely to win a hot dog-eating contest?", "difficulty": 1 },
-    { "text": "Who's most likely to forget to pick up their kids from school?", "difficulty": 1 },
-    { "text": "Who's most likely to fart in an elevator full of people?", "difficulty": 1 },
-    { "text": "Who's most likely to sleep with a friend's family member?", "difficulty": 1 },
-    { "text": "Who's most likely to give someone a fake phone number?", "difficulty": 1 },
-    { "text": "Who's most likely to have a foot fetish?", "difficulty": 1 },
-    { "text": "Who's most likely to make a sex tape?", "difficulty": 1 },
-    { "text": "Who's most likely to enjoy role play?", "difficulty": 1 },
-    { "text": "Who's most likely to have an affair?", "difficulty": 1 },
-    { "text": "Who's most likely to have a divorce?", "difficulty": 1 },
-    { "text": "Who's most likely to give their kid an unusual name?", "difficulty": 1 },
-    { "text": "Who's most likely to stay in and watch Netflix on a Friday night?", "difficulty": 1 },
-    { "text": "Who's most likely to live the longest?", "difficulty": 1 },
-    { "text": "Who's most likely to become a comedian?", "difficulty": 1 },
-    { "text": "Who's most likely to give a sarcastic comment?", "difficulty": 1 },
-    { "text": "Who's most likely to win at every board game?", "difficulty": 1 },
-    { "text": "Who's most likely to tell a dad joke?", "difficulty": 1 },
-    { "text": "Who's most likely to like every cocktail?", "difficulty": 1 },
-    { "text": "Who's most likely to be the first on the dance floor?", "difficulty": 1 },
-    { "text": "Who's most likely to go out three nights in a row?", "difficulty": 1 },
-    { "text": "Who's most likely to hook up with someone they swore they hated?", "difficulty": 1 },
-    { "text": "Who's most likely to sleep at someone's house and steal a hoodie?", "difficulty": 1 },
-    { "text": "Who's most likely to win a spicy tournament?", "difficulty": 1 },
-    { "text": "Who's most likely to join someone in the shower uninvited?", "difficulty": 1 },
-    { "text": "Who's most likely to have a secret kink nobody expects?", "difficulty": 1 },
-    { "text": "Who's most likely to flirt with someone older just for fun?", "difficulty": 1 }
+    {
+      "text": "become a millionaire?",
+      "difficulty": 1
+    },
+    {
+      "text": "get married next?",
+      "difficulty": 1
+    },
+    {
+      "text": "get divorced next?",
+      "difficulty": 1
+    },
+    {
+      "text": "have a baby next?",
+      "difficulty": 1
+    },
+    {
+      "text": "not fight for a friend?",
+      "difficulty": 2
+    },
+    {
+      "text": "fight for a friend?",
+      "difficulty": 1
+    },
+    {
+      "text": "live abroad next?",
+      "difficulty": 1
+    },
+    {
+      "text": "rob a bank?",
+      "difficulty": 2
+    },
+    {
+      "text": "have sex with a past partner?",
+      "difficulty": 2
+    },
+    {
+      "text": "get arrested for public indecency?",
+      "difficulty": 3
+    },
+    {
+      "text": "marry someone rich and famous?",
+      "difficulty": 1
+    },
+    {
+      "text": "go skinny-dipping?",
+      "difficulty": 1
+    },
+    {
+      "text": "date more than one person at a time?",
+      "difficulty": 2
+    },
+    {
+      "text": "survive alone on a deserted island?",
+      "difficulty": 1
+    },
+    {
+      "text": "forget their best friend's birthday?",
+      "difficulty": 2
+    },
+    {
+      "text": "die first in a horror film?",
+      "difficulty": 1
+    },
+    {
+      "text": "dine and dash?",
+      "difficulty": 2
+    },
+    {
+      "text": "drop something on the floor and still eat it?",
+      "difficulty": 2
+    },
+    {
+      "text": "be late to their own wedding?",
+      "difficulty": 1
+    },
+    {
+      "text": "run their own business?",
+      "difficulty": 1
+    },
+    {
+      "text": "own the most pets?",
+      "difficulty": 1
+    },
+    {
+      "text": "have the most children?",
+      "difficulty": 1
+    },
+    {
+      "text": "forget where they parked their car?",
+      "difficulty": 1
+    },
+    {
+      "text": "spend all their money on something silly?",
+      "difficulty": 1
+    },
+    {
+      "text": "take a spontaneous road trip?",
+      "difficulty": 1
+    },
+    {
+      "text": "crash a wedding?",
+      "difficulty": 1
+    },
+    {
+      "text": "join a cult?",
+      "difficulty": 2
+    },
+    {
+      "text": "have a secret tattoo?",
+      "difficulty": 1
+    },
+    {
+      "text": "wake up in a stranger's bed?",
+      "difficulty": 2
+    },
+    {
+      "text": "go back to their ex?",
+      "difficulty": 3
+    },
+    {
+      "text": "cheat on their partner?",
+      "difficulty": 3
+    },
+    {
+      "text": "get drunk first tonight?",
+      "difficulty": 1
+    },
+    {
+      "text": "fall asleep first?",
+      "difficulty": 1
+    },
+    {
+      "text": "sing karaoke?",
+      "difficulty": 1
+    },
+    {
+      "text": "flirt their way out of a ticket?",
+      "difficulty": 1
+    },
+    {
+      "text": "spill a secret after one drink?",
+      "difficulty": 2
+    },
+    {
+      "text": "believe in a wild conspiracy theory?",
+      "difficulty": 2
+    },
+    {
+      "text": "get blackout drunk and wake up with zero memory?",
+      "difficulty": 2
+    },
+    {
+      "text": "get secretly married without telling anyone?",
+      "difficulty": 1
+    },
+    {
+      "text": "still sleep with a childhood stuffed animal?",
+      "difficulty": 1
+    },
+    {
+      "text": "have the messiest room ever?",
+      "difficulty": 1
+    },
+    {
+      "text": "get lost on a road trip?",
+      "difficulty": 1
+    },
+    {
+      "text": "kiss more than one person in a night?",
+      "difficulty": 2
+    },
+    {
+      "text": "have sex in a public place?",
+      "difficulty": 3
+    },
+    {
+      "text": "roleplay in bed?",
+      "difficulty": 3
+    },
+    {
+      "text": "have a threesome?",
+      "difficulty": 3
+    },
+    {
+      "text": "flirt with a teacher/professor?",
+      "difficulty": 3
+    },
+    {
+      "text": "have the highest screen time?",
+      "difficulty": 1
+    },
+    {
+      "text": "have the most money in their bank account right now?",
+      "difficulty": 1
+    },
+    {
+      "text": "accidentally poison someone with terrible cooking?",
+      "difficulty": 2
+    },
+    {
+      "text": "take a week to reply to a text?",
+      "difficulty": 2
+    },
+    {
+      "text": "intentionally give the wrong directions to tourists?",
+      "difficulty": 2
+    },
+    {
+      "text": "ask for advice but never take it?",
+      "difficulty": 2
+    },
+    {
+      "text": "cancel plans at the last moment?",
+      "difficulty": 2
+    },
+    {
+      "text": "have watched the most shows on Netflix?",
+      "difficulty": 1
+    },
+    {
+      "text": "have the most phone numbers in their contacts?",
+      "difficulty": 1
+    },
+    {
+      "text": "get married more than once?",
+      "difficulty": 1
+    },
+    {
+      "text": "give the best advice?",
+      "difficulty": 1
+    },
+    {
+      "text": "have read the most books?",
+      "difficulty": 1
+    },
+    {
+      "text": "drop everything and travel the world?",
+      "difficulty": 1
+    },
+    {
+      "text": "dress inappropriately in the office?",
+      "difficulty": 1
+    },
+    {
+      "text": "sleep with a colleague?",
+      "difficulty": 1
+    },
+    {
+      "text": "have the most unread work emails?",
+      "difficulty": 1
+    },
+    {
+      "text": "have the funniest dating story?",
+      "difficulty": 1
+    },
+    {
+      "text": "go a week without a shower?",
+      "difficulty": 3
+    },
+    {
+      "text": "cut their own hair (and think it looks good)?",
+      "difficulty": 1
+    },
+    {
+      "text": "survive a zombie apocalypse?",
+      "difficulty": 1
+    },
+    {
+      "text": "lock themselves out of their own home?",
+      "difficulty": 1
+    },
+    {
+      "text": "laugh in a serious moment?",
+      "difficulty": 1
+    },
+    {
+      "text": "pretend they don't know someone when they meet them again?",
+      "difficulty": 1
+    },
+    {
+      "text": "fall asleep during sex?",
+      "difficulty": 3
+    },
+    {
+      "text": "win a hot dog-eating contest?",
+      "difficulty": 1
+    },
+    {
+      "text": "forget to pick up their kids from school?",
+      "difficulty": 1
+    },
+    {
+      "text": "fart in an elevator full of people?",
+      "difficulty": 3
+    },
+    {
+      "text": "sleep with a friend's family member?",
+      "difficulty": 3
+    },
+    {
+      "text": "give someone a fake phone number?",
+      "difficulty": 1
+    },
+    {
+      "text": "have a foot fetish?",
+      "difficulty": 3
+    },
+    {
+      "text": "make a sex tape?",
+      "difficulty": 3
+    },
+    {
+      "text": "enjoy role play?",
+      "difficulty": 1
+    },
+    {
+      "text": "have an affair?",
+      "difficulty": 3
+    },
+    {
+      "text": "give their kid an unusual name?",
+      "difficulty": 1
+    },
+    {
+      "text": "live the longest?",
+      "difficulty": 1
+    },
+    {
+      "text": "become a comedian?",
+      "difficulty": 1
+    },
+    {
+      "text": "tell a dad joke?",
+      "difficulty": 1
+    },
+    {
+      "text": "like every cocktail?",
+      "difficulty": 1
+    },
+    {
+      "text": "be the first on the dance floor?",
+      "difficulty": 1
+    },
+    {
+      "text": "go out three nights in a row?",
+      "difficulty": 1
+    },
+    {
+      "text": "hook up with someone they swore they hated?",
+      "difficulty": 2
+    },
+    {
+      "text": "sleep at someone's house and steal a hoodie?",
+      "difficulty": 1
+    },
+    {
+      "text": "join someone in the shower uninvited?",
+      "difficulty": 3
+    },
+    {
+      "text": "have a secret kink nobody expects?",
+      "difficulty": 3
+    },
+    {
+      "text": "speak the most languages?",
+      "difficulty": 1
+    },
+    {
+      "text": "volentered the most",
+      "difficulty": 1
+    },
+    {
+      "text": "convince everyone to take shots?",
+      "difficulty": 1
+    },
+    {
+      "text": "make the whole room laugh today?",
+      "difficulty": 1
+    },
+    {
+      "text": "is the fittest person as a older person?",
+      "difficulty": 1
+    }
   ]
 }

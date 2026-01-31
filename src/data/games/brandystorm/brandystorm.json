@@ -1,82 +1,302 @@
 {
+  "prompt": "Drink if ",
   "cards": [
-    { "text": "Drink if you've ever fallen for someone in this room", "difficulty": 1 },
-    { "text": "Drink for every vowel in your first name", "difficulty": 1 },
-    { "text": "Drink if you've had sex in the last month", "difficulty": 1 },
-    { "text": "Drink if you have the longest hair", "difficulty": 1 },
-    { "text": "Drink if you've broken your phone screen", "difficulty": 1 },
-    { "text": "Drink if you were the last person to arrive", "difficulty": 1 },
-    { "text": "Drink if you checked your phone in the last 5 minutes", "difficulty": 1 },
-    { "text": "Drink if you're wearing black clothes", "difficulty": 1 },
-    { "text": "Drink if you're the tallest person here", "difficulty": 1 },
-    { "text": "Choose someone to drink if you're the shortest person here", "difficulty": 1 },
-    { "text": "Drink if you have the most tattoos", "difficulty": 1 },
-    { "text": "Drink if you ordered food delivery this week", "difficulty": 1 },
-    { "text": "Choose someone to drink if you're the youngest person here", "difficulty": 1 },
-    { "text": "Drink if you can't whistle", "difficulty": 1 },
-    { "text": "Drink if you were born in winter", "difficulty": 1 },
-    { "text": "Drink if you have the most apps on your phone. (Download this app)", "difficulty": 1 },
-    { "text": "Drink if you have the most scars", "difficulty": 1 },
-    { "text": "Choose someone to drink if you speak the most languages", "difficulty": 1 },
-    { "text": "Drink if you've kissed someone of the same sex", "difficulty": 1 },
-    { "text": "Drink if you had sex without kissing", "difficulty": 1 },
-    { "text": "Drink if you are drunk right now", "difficulty": 1 },
-    { "text": "Drink if you've had magic mushrooms", "difficulty": 1 },
-    { "text": "Drink if you've had sex in a public place", "difficulty": 1 },
-    { "text": "Drink if you've texted your ex while drunk", "difficulty": 1 },
-    { "text": "Drink if you've cheated on a test", "difficulty": 1 },
-    { "text": "Drink if you've gotten back with an ex you knew was a bad idea", "difficulty": 1 },
-    { "text": "Drink if you've puked from drinking", "difficulty": 1 },
-    { "text": "Drink if you've said 'I'm on the way' while still at home", "difficulty": 1 },
-    { "text": "Drink if you've kissed more than one person in the same night", "difficulty": 1 },
-    { "text": "Choose someone to drink if you've helped someone move houses", "difficulty": 1 },
-    { "text": "Choose someone to drink if you've volunteered before", "difficulty": 1 },
-    { "text": "Drink if you've lied about your age", "difficulty": 1 },
-    { "text": "Drink if you've flirted with someone you shouldn't have", "difficulty": 1 },
-    { "text": "Drink if you've hidden a relationship from your friends or parents", "difficulty": 1 },
-    { "text": "Drink if you've gotten into a fight before, choose a fighting buddy to drink with", "difficulty": 1 },
-    { "text": "Drink if you've been caught having sex", "difficulty": 1 },
-    { "text": "Drink if you've driven a car while drunk", "difficulty": 1 },
-    { "text": "Drink if you've eaten something off the floor", "difficulty": 1 },
-    { "text": "Drink if you've talked to your pet like a human", "difficulty": 1 },
-    { "text": "Drink if you've opened the fridge and forgot why", "difficulty": 1 },
-    { "text": "Drink if you've said 'you too' when it made no sense", "difficulty": 1 },
-    { "text": "Choose someone to drink if you've convinced everyone to take shots", "difficulty": 1 },
-    { "text": "Choose someone to drink if you've made the whole room laugh today", "difficulty": 1 },
-    { "text": "Drink if you have blue eyes", "difficulty": 1 },
-    { "text": "Drink if you are wearing jewelry", "difficulty": 1 },
-    { "text": "Choose someone to drink if you went to the gym this week", "difficulty": 1 },
-    { "text": "Drink for every sibling you have", "difficulty": 1 },
-    { "text": "Drink for every year you have been in a relationship", "difficulty": 1 },
-    { "text": "Drink 3 times if you travelled the most in the group", "difficulty": 1 },
-    { "text": "Drink if you had at least two coffees today", "difficulty": 1 },
-    { "text": "Drink if you laughed in the last minute", "difficulty": 1 },
-    { "text": "Drink if your birthday day matches with someone in the group", "difficulty": 1 },
-    { "text": "Drink if you have enough money to travel for a year", "difficulty": 1 },
-    { "text": "Drink if you want to get married", "difficulty": 1 },
-    { "text": "Choose someone to drink if you have a baby (human or pet)", "difficulty": 1 },
-    { "text": "Choose someone to drink if you entered a fight to save a friend", "difficulty": 1 },
-    { "text": "Choose someone to drink if you have ever lived abroad", "difficulty": 1 },
-    { "text": "Drink if you have shoplifted something", "difficulty": 1 },
-    { "text": "Drink if you have ever been fully naked on the beach", "difficulty": 1 },
-    { "text": "Drink if you have been in a strip club", "difficulty": 1 },
-    { "text": "Drink if you've dated more than one person at a time", "difficulty": 1 },
-    { "text": "Drink if you have forgotten your best friend's birthday", "difficulty": 1 },
-    { "text": "Drink if you have dined and dashed", "difficulty": 1 },
-    { "text": "Drink if you've forgotten where you parked your car", "difficulty": 1 },
-    { "text": "Drink if you have hidden a tattoo from your parents", "difficulty": 1 },
-    { "text": "Drink if you've gotten blackout drunk and woken up with zero memory", "difficulty": 1 },
-    { "text": "Drink if you have watched Netflix in the last 24h", "difficulty": 1 },
-    { "text": "Drink if you haven't read a book in the last month", "difficulty": 1 },
-    { "text": "Choose someone to drink if you have the funniest dating story (by group consensus)", "difficulty": 1 },
-    { "text": "Drink if you have gone 3 days without a shower", "difficulty": 1 },
-    { "text": "Drink if you have cut your own hair", "difficulty": 1 },
-    { "text": "Choose a friend to take a shot with, while looking into their eyes", "difficulty": 1 },
-    { "text": "Drink if you have made a sex tape", "difficulty": 1 },
-    { "text": "Drink if you want to give your kid an unusual name (by group consensus)", "difficulty": 1 },
-    { "text": "Drink if you have told a dad joke today", "difficulty": 1 },
-    { "text": "Everyone names a favorite alcoholic drink. Drink for each that you don't like", "difficulty": 1 },
-    { "text": "Drink if you have gone out three nights in a row", "difficulty": 1 },
-    { "text": "Finish your drink or eat something spicy", "difficulty": 1 }
+    {
+      "text": "you've fallen asleep during sex.",
+      "difficulty": 3
+    },
+    {
+      "text": "you've written a love letter.",
+      "difficulty": 1
+    },
+    {
+      "text": "you've texted the wrong person something romantic.",
+      "difficulty": 2
+    },
+    {
+      "text": "you've made up a story to impress someone.",
+      "difficulty": 2
+    },
+    {
+      "text": "you've gone on a terrible first date.",
+      "difficulty": 2
+    },
+    {
+      "text": "you've kept a relationship secret.",
+      "difficulty": 2
+    },
+    {
+      "text": "you've dated two people at once.",
+      "difficulty": 2
+    },
+    {
+      "text": "you've gone through your partner's phone.",
+      "difficulty": 2
+    },
+    {
+      "text": "you've had a workplace romance.",
+      "difficulty": 2
+    },
+    {
+      "text": "you've rehearsed what to say before calling someone.",
+      "difficulty": 1
+    },
+    {
+      "text": "you've been set up on a date by friends.",
+      "difficulty": 1
+    },
+    {
+      "text": "you've ever had more than 2 coffees in a day.",
+      "difficulty": 1
+    },
+    {
+      "text": "you've gotten into a fight",
+      "difficulty": 2
+    },
+    {
+      "text": "you've lived abroad.",
+      "difficulty": 1
+    },
+    {
+      "text": "you've shoplifted something.",
+      "difficulty": 2
+    },
+    {
+      "text": "you've had sex with an ex after breaking up.",
+      "difficulty": 3
+    },
+    {
+      "text": "you've had sex in a public place.",
+      "difficulty": 3
+    },
+    {
+      "text": "you've been fully naked on a beach.",
+      "difficulty": 3
+    },
+    {
+      "text": "you've been to a strip club.",
+      "difficulty": 3
+    },
+    {
+      "text": "you've dated more than one person at the same time.",
+      "difficulty": 3
+    },
+    {
+      "text": "you've forgotten your best friend's birthday.",
+      "difficulty": 2
+    },
+    {
+      "text": "you've dined and dashed.",
+      "difficulty": 2
+    },
+    {
+      "text": "you've dropped food on the floor and eaten it.",
+      "difficulty": 2
+    },
+    {
+      "text": "you've gone three days without a shower.",
+      "difficulty": 3
+    },
+    {
+      "text": "you've made a sex tape.",
+      "difficulty": 3
+    },
+    {
+      "text": "you've gone out three nights in a row.",
+      "difficulty": 1
+    },
+    {
+      "text": "you've ever fallen for someone in this room",
+      "difficulty": 3
+    },
+    {
+      "text": "your first name contains a vowel",
+      "difficulty": 1
+    },
+    {
+      "text": "you've had sex in the last month",
+      "difficulty": 3
+    },
+    {
+      "text": "you have the longest hair",
+      "difficulty": 1
+    },
+    {
+      "text": "you've broken your phone screen",
+      "difficulty": 1
+    },
+    {
+      "text": "you were the last person to arrive",
+      "difficulty": 1
+    },
+    {
+      "text": "you checked your phone in the last 5 minutes",
+      "difficulty": 1
+    },
+    {
+      "text": "you're wearing black clothes",
+      "difficulty": 1
+    },
+    {
+      "text": "you're the tallest person here",
+      "difficulty": 1
+    },
+    {
+      "text": "you have the most tattoos",
+      "difficulty": 1
+    },
+    {
+      "text": "you ordered food delivery this week",
+      "difficulty": 1
+    },
+    {
+      "text": "you can't whistle",
+      "difficulty": 1
+    },
+    {
+      "text": "you were born in winter",
+      "difficulty": 1
+    },
+    {
+      "text": "you have the most apps on your phone. (Download this app)",
+      "difficulty": 1
+    },
+    {
+      "text": "you have the most scars",
+      "difficulty": 1
+    },
+    {
+      "text": "you've kissed someone of the same sex",
+      "difficulty": 3
+    },
+    {
+      "text": "you had sex without kissing",
+      "difficulty": 3
+    },
+    {
+      "text": "you are drunk right now",
+      "difficulty": 1
+    },
+    {
+      "text": "you've had magic mushrooms",
+      "difficulty": 2
+    },
+    {
+      "text": "you've cheated on a test",
+      "difficulty": 2
+    },
+    {
+      "text": "you've said 'I'm on the way' while still at home",
+      "difficulty": 2
+    },
+    {
+      "text": "you've kissed more than one person in the same night",
+      "difficulty": 3
+    },
+    {
+      "text": "you've lied about your age",
+      "difficulty": 2
+    },
+    {
+      "text": "you've flirted with someone you shouldn't have",
+      "difficulty": 3
+    },
+    {
+      "text": "you've hidden a relationship from your friends or parents",
+      "difficulty": 2
+    },
+    {
+      "text": "you've gotten into a fight before, choose a fighting buddy to drink with",
+      "difficulty": 2
+    },
+    {
+      "text": "you've been caught having sex",
+      "difficulty": 3
+    },
+    {
+      "text": "you've driven a car while drunk",
+      "difficulty": 3
+    },
+    {
+      "text": "you've talked to your pet like a human",
+      "difficulty": 1
+    },
+    {
+      "text": "you've opened the fridge and forgot why",
+      "difficulty": 1
+    },
+    {
+      "text": "you've said 'you too' when it made no sense",
+      "difficulty": 1
+    },
+    {
+      "text": "you have blue eyes",
+      "difficulty": 1
+    },
+    {
+      "text": "you are wearing jewelry",
+      "difficulty": 1
+    },
+    {
+      "text": "you have at least one sibling",
+      "difficulty": 1
+    },
+    {
+      "text": "you've been in a relationship for at least a year",
+      "difficulty": 1
+    },
+    {
+      "text": "you travelled the most in the group",
+      "difficulty": 1
+    },
+    {
+      "text": "you had a coffe today",
+      "difficulty": 1
+    },
+    {
+      "text": "you laughed in the last minute",
+      "difficulty": 1
+    },
+    {
+      "text": "your birthday day matches with someone in the group",
+      "difficulty": 1
+    },
+    {
+      "text": "you want to get married",
+      "difficulty": 1
+    },
+
+    {
+      "text": "you've forgotten where you parked your car",
+      "difficulty": 1
+    },
+    {
+      "text": "you have hidden a tattoo from your parents",
+      "difficulty": 2
+    },
+    {
+      "text": "you've gotten blackout drunk and woken up with zero memory",
+      "difficulty": 3
+    },
+    {
+      "text": "you have watched Netflix in the last 24h",
+      "difficulty": 1
+    },
+    {
+      "text": "you haven't read a book in the last month",
+      "difficulty": 1
+    },
+    {
+      "text": "you have cut your own hair",
+      "difficulty": 1
+    },
+    {
+      "text": "you want to give your kid an unusual name (by group consensus)",
+      "difficulty": 2
+    },
+    {
+      "text": "you have told a dad joke today",
+      "difficulty": 1
+    }
   ]
 }

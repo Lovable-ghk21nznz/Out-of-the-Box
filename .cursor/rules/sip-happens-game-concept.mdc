@@ -19,18 +19,17 @@ alwaysApply: true
 
 ### Game Categories (Drink Themes)
 
-| Category          | Drink Theme             |
-| ----------------- | ----------------------- |
-| Dating            | Love on the Rocks       |
-| Never Have I Ever | Champagne & Plot Twists |
-| Would You Rather  | Beer or Bourbon         |
-| Truth or Drink    | Truth & Tonic           |
-| Pictionary Adult  | Tipsy Doodles           |
-| Most Likely       | Shots Fired             |
-| Pick Your Poison  | Booze Roulette          |
-| Deep Talk         | Rum & Reflection        |
-| Hot Topics        | Tequila & Taboos        |
-| Buzzed            | BrandyStorm             |
+| Category                          | Drink Theme             |
+| --------------------------------- | ----------------------- |
+| Dating                            | Love on the Rocks       |
+| Never Have I Ever                 | Champagne & Plot Twists |
+| Would You Rather / Booze Roulette |
+| Truth or Drink                    | Truth & Tonic           |
+| Pictionary Adult                  | Tipsy Doodles           |
+| Most Likely                       | Shots Fired             |
+| Deep Talk                         | Rum & Reflection        |
+| Hot Topics                        | Tequila & Taboos        |
+| Buzzed                            | BrandyStorm             |
 
 ## Coding Standards
 

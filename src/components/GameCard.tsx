@@ -15,17 +15,23 @@ interface GameCardProps {
 }
 
 export const GameCard = ({ game, onClick, index }: GameCardProps) => {
+  const hasNoCards = game.cardCount === 0;
+
   return (
     <motion.div
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ delay: index * 0.1, duration: 0.3 }}
-      whileHover={{ scale: 1.01 }}
-      whileTap={{ scale: 0.99 }}
+      whileHover={hasNoCards ? undefined : { scale: 1.01 }}
+      whileTap={hasNoCards ? undefined : { scale: 0.99 }}
     >
-      <Card 
-        className="cursor-pointer border border-border hover:shadow-card transition-all bg-card"
-        onClick={onClick}
+      <Card
+        className={
+          hasNoCards
+            ? "cursor-not-allowed border border-border opacity-60 bg-card"
+            : "cursor-pointer border border-border hover:shadow-card transition-all bg-card"
+        }
+        onClick={hasNoCards ? undefined : onClick}
       >
         <div className="flex items-center gap-4 p-5">
           <span className="text-3xl">{game.emoji}</span>

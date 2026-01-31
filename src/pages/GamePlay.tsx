@@ -24,29 +24,31 @@ import loveOnTheRocksData from "@/data/games/love-on-the-rocks/love-on-the-rocks
 import rumAndReflectionData from "@/data/games/rum-and-reflection/rum-and-reflection.json";
 import tequilaAndTaboosData from "@/data/games/tequila-and-taboos/tequila-and-taboos.json";
 import shotsFiredData from "@/data/games/shots-fired/shots-fired.json";
-import champagneAndPlotTwistsData from "@/data/games/champagne-and-plot-twists/champagne-and-plot-twists.json";
-import boozeRouletteData from "@/data/games/booze-roulette/booze-roulette.json";
 import tipsyDoodlesData from "@/data/games/tipsy-doodles/tipsy-doodles.json";
 import truthAndTonicData from "@/data/games/truth-and-tonic/truth-and-tonic.json";
-import beerOrBourbonData from "@/data/games/beer-or-bourbon/beer-or-bourbon.json";
+import boozeRouletteData from "@/data/games/booze-roulette/booze-roulette.json";
 
 interface Card {
-  text: string;
+  text?: string;
+  options?: string[];
   difficulty: number;
 }
 
+interface GameCardDataEntry {
+  cards: Card[];
+  prompt?: string;
+}
+
 // Map game IDs to their card data
-const gameCardData: Record<string, { cards: Card[] }> = {
-  "brandystorm": brandystormData,
+const gameCardData: Record<string, GameCardDataEntry> = {
+  brandystorm: brandystormData,
   "love-on-the-rocks": loveOnTheRocksData,
   "rum-and-reflection": rumAndReflectionData,
   "tequila-and-taboos": tequilaAndTaboosData,
   "shots-fired": shotsFiredData,
-  "champagne-and-plot-twists": champagneAndPlotTwistsData,
-  "booze-roulette": boozeRouletteData,
   "tipsy-doodles": tipsyDoodlesData,
   "truth-and-tonic": truthAndTonicData,
-  "beer-or-bourbon": beerOrBourbonData,
+  "booze-roulette": boozeRouletteData,
 };
 
 const difficultyLabels: Record<number, string> = {
@@ -62,7 +64,9 @@ const GamePlay = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
-  const [selectedLevels, setSelectedLevels] = useState<Set<number>>(new Set([1, 2, 3]));
+  const [selectedLevels, setSelectedLevels] = useState<Set<number>>(
+    new Set([1, 2, 3]),
+  );
 
   const game = games.find((g) => g.id === gameId);
 
@@ -76,13 +80,12 @@ const GamePlay = () => {
 
       try {
         const cardData = gameCardData[gameId];
-        if (!cardData)
-          throw new Error(`No card data found for game: ${gameId}`);
-
-        const shuffled = [...cardData.cards].sort(() => Math.random() - 0.5);
+        const cards = cardData?.cards ?? [];
+        const shuffled = [...cards].sort(() => Math.random() - 0.5);
         setAllCards(shuffled);
       } catch (error) {
         console.error("Error loading cards:", error);
+        setAllCards([]);
       } finally {
         setIsLoading(false);
       }
@@ -169,50 +172,37 @@ const GamePlay = () => {
               {game.name}
             </h1>
             <p className="text-sm text-muted-foreground">
-              Card {filteredCards.length > 0 ? currentIndex + 1 : 0} of {filteredCards.length}
+              Card {filteredCards.length > 0 ? currentIndex + 1 : 0} of{" "}
+              {filteredCards.length}
             </p>
           </div>
         </motion.div>
-
-        {!isLoading && filteredCards.length > 0 && (
+        {isLoading ? (
+          <></>
+        ) : filteredCards.length === 0 ? (
+          <div className="text-center py-12 text-muted-foreground">
+            No cards avaliable
+          </div>
+        ) : (
           <Carousel
             setApi={setCarouselApi}
-            opts={{
-              loop: true,
-            }}
+            opts={{ loop: true }}
             className="w-full"
           >
             <CarouselContent>
-              {gameId === "booze-roulette"
-                ? // Show pairs of options on single card for Booze Roulette
-                  filteredCards.reduce((acc, card, index) => {
-                    if (index % 2 === 0) {
-                      acc.push(
-                        <CarouselItem key={index}>
-                          <PlayingCard
-                            content={card.text}
-                            secondContent={filteredCards[index + 1]?.text}
-                            color={game.color}
-                          />
-                        </CarouselItem>
-                      );
-                    }
-                    return acc;
-                  }, [] as JSX.Element[])
-                : // Show single cards for other games
-                  filteredCards.map((card, index) => (
-                    <CarouselItem key={index}>
-                      <PlayingCard content={card.text} color={game.color} />
-                    </CarouselItem>
-                  ))}
+              {filteredCards.map((card, index) => (
+                <CarouselItem key={index}>
+                  <PlayingCard
+                    prompt={gameCardData[gameId]?.prompt}
+                    content={card.text}
+                    color={game.color}
+                    options={card.options}
+                    points={card.difficulty}
+                  />
+                </CarouselItem>
+              ))}
             </CarouselContent>
           </Carousel>
-        )}
-
-        {!isLoading && filteredCards.length === 0 && (
-          <div className="text-center py-12 text-muted-foreground">
-            No cards match the selected levels
-          </div>
         )}
       </div>
     </div>
