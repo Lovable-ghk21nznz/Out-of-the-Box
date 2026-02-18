@@ -1,26 +1,10 @@
-Nome: Sip Happens 
-
-Categorias: nomme engraçado com a bebida
-    Niveis: dificuldade 
-    Desconto: bebe menos x golos se tiveres a beber a bedida do nome da categoria 
 
 Customizado: 
     Na App: pessoa pode criar cartas e acrescentar ao modo e tambem acrescentar cartas doutras categorias ja existentes 
-    Enconmendar no site ao por uma imagem para a parte de tras das cartas 
+    Encomendar no site ao por uma imagem para a parte de tras das cartas 
 
 
 
 Categorias Novas:
     Rum e os 5 sentidos (pista n descrever emoçao, cor, som, cheiro, tatto) 
     
-    Dating -> Love on the Rocks
-    Never Have I Ever → Champagne & Plot Twists
-    Would You Rather → Beer or Bourbon
-    Truth or Drink -> Truth & Tonic
-    Pictionary Adult -> Tipsy Doodles
-    Most Likely -> Shots Fired 
-    Pick Your Poison -> Booze Roulette
-    Deep Talk -> Rum & Reflection 
-    Hot Topics --> Tequila & Taboos
-
-BrandyStorm
