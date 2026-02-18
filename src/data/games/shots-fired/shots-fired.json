@@ -2,388 +2,830 @@
   "prompt": "Who's most likely to",
   "cards": [
     {
+      "id": 1,
       "text": "become a millionaire?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 2,
       "text": "get married next?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 3,
       "text": "get divorced next?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 4,
       "text": "have a baby next?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 5,
       "text": "not fight for a friend?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 6,
       "text": "fight for a friend?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 7,
       "text": "live abroad next?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 8,
       "text": "rob a bank?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 9,
       "text": "have sex with a past partner?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 10,
       "text": "get arrested for public indecency?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 11,
       "text": "marry someone rich and famous?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 12,
       "text": "go skinny-dipping?",
-      "difficulty": 1
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 13,
       "text": "date more than one person at a time?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 14,
       "text": "survive alone on a deserted island?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 15,
       "text": "forget their best friend's birthday?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 16,
       "text": "die first in a horror film?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 17,
       "text": "dine and dash?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 18,
       "text": "drop something on the floor and still eat it?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 19,
       "text": "be late to their own wedding?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 20,
       "text": "run their own business?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 21,
       "text": "own the most pets?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 22,
       "text": "have the most children?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 23,
       "text": "forget where they parked their car?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 24,
       "text": "spend all their money on something silly?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 25,
       "text": "take a spontaneous road trip?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 26,
       "text": "crash a wedding?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 27,
       "text": "join a cult?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 28,
       "text": "have a secret tattoo?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 29,
       "text": "wake up in a stranger's bed?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 30,
       "text": "go back to their ex?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 31,
       "text": "cheat on their partner?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 32,
       "text": "get drunk first tonight?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 33,
       "text": "fall asleep first?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 34,
       "text": "sing karaoke?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 35,
       "text": "flirt their way out of a ticket?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 36,
       "text": "spill a secret after one drink?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 37,
       "text": "believe in a wild conspiracy theory?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 38,
       "text": "get blackout drunk and wake up with zero memory?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 39,
       "text": "get secretly married without telling anyone?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 40,
       "text": "still sleep with a childhood stuffed animal?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 41,
       "text": "have the messiest room ever?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 42,
       "text": "get lost on a road trip?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 43,
       "text": "kiss more than one person in a night?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 44,
       "text": "have sex in a public place?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 45,
       "text": "roleplay in bed?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 46,
       "text": "have a threesome?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 47,
       "text": "flirt with a teacher/professor?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 48,
       "text": "have the highest screen time?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 49,
       "text": "have the most money in their bank account right now?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 50,
       "text": "accidentally poison someone with terrible cooking?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 51,
       "text": "take a week to reply to a text?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 52,
       "text": "intentionally give the wrong directions to tourists?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 53,
       "text": "ask for advice but never take it?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 54,
       "text": "cancel plans at the last moment?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 55,
       "text": "have watched the most shows on Netflix?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 56,
       "text": "have the most phone numbers in their contacts?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 57,
       "text": "get married more than once?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 58,
       "text": "give the best advice?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 59,
       "text": "have read the most books?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 60,
       "text": "drop everything and travel the world?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 61,
       "text": "dress inappropriately in the office?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 62,
       "text": "sleep with a colleague?",
-      "difficulty": 1
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 63,
       "text": "have the most unread work emails?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 64,
       "text": "have the funniest dating story?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 65,
       "text": "go a week without a shower?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 66,
       "text": "cut their own hair (and think it looks good)?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 67,
       "text": "survive a zombie apocalypse?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 68,
       "text": "lock themselves out of their own home?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 69,
       "text": "laugh in a serious moment?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 70,
       "text": "pretend they don't know someone when they meet them again?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 71,
       "text": "fall asleep during sex?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 72,
       "text": "win a hot dog-eating contest?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 73,
       "text": "forget to pick up their kids from school?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 74,
       "text": "fart in an elevator full of people?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 75,
       "text": "sleep with a friend's family member?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 76,
       "text": "give someone a fake phone number?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 77,
       "text": "have a foot fetish?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 78,
       "text": "make a sex tape?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 79,
       "text": "enjoy role play?",
-      "difficulty": 1
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 80,
       "text": "have an affair?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 81,
       "text": "give their kid an unusual name?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 82,
       "text": "live the longest?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 83,
       "text": "become a comedian?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 84,
       "text": "tell a dad joke?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 85,
       "text": "like every cocktail?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 86,
       "text": "be the first on the dance floor?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 87,
       "text": "go out three nights in a row?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 88,
       "text": "hook up with someone they swore they hated?",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 89,
       "text": "sleep at someone's house and steal a hoodie?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 90,
       "text": "join someone in the shower uninvited?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 91,
       "text": "have a secret kink nobody expects?",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 92,
       "text": "speak the most languages?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "text": "volentered the most",
-      "difficulty": 1
+      "id": 93,
+      "text": "have volunteered the most?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 94,
       "text": "convince everyone to take shots?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 95,
       "text": "make the whole room laugh today?",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "text": "is the fittest person as a older person?",
-      "difficulty": 1
+      "id": 96,
+      "text": "still be the fittest person in old age?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 97,
+      "text": "lie on their resume?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 98,
+      "text": "cry during an argument?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 99,
+      "text": "stalk their ex on social media at 3 a.m.?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 100,
+      "text": "get kicked out of a bar?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 101,
+      "text": "have a secret social media account?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 102,
+      "text": "date someone purely for their money?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 103,
+      "text": "drunk-text an ex tonight?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 104,
+      "text": "fake an orgasm?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 105,
+      "text": "have a sugar daddy or sugar mommy?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 106,
+      "text": "send nudes to the wrong person?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 107,
+      "text": "hook up with someone in this room?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 108,
+      "text": "get caught watching something they shouldn't?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 109,
+      "text": "have the weirdest browser history?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 110,
+      "text": "be into BDSM?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 111,
+      "text": "have hooked up with someone everyone knows?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 112,
+      "text": "cheat and never tell anyone?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 113,
+      "text": "be secretly subscribed to OnlyFans?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 114,
+      "text": "hook up with a friend's ex?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 115,
+      "text": "have the most embarrassing sex story?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 116,
+      "text": "have a walk of shame story they'll never share?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 117,
+      "text": "have done something illegal that nobody knows about?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 118,
+      "text": "have a body count they'd never admit to?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     }
   ]
 }

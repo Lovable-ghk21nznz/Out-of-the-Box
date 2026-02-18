@@ -1,10 +1,11 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, ChevronDown } from "lucide-react";
 import { PlayingCard } from "@/components/PlayingCard";
 import { games } from "@/data/categories";
 import { motion } from "framer-motion";
+import { submitVote } from "@/lib/feedback";
 import {
   Carousel,
   CarouselContent,
@@ -29,9 +30,12 @@ import truthAndTonicData from "@/data/games/truth-and-tonic/truth-and-tonic.json
 import boozeRouletteData from "@/data/games/booze-roulette/booze-roulette.json";
 
 interface Card {
+  id: number;
   text?: string;
   options?: string[];
   difficulty: number;
+  yesVotes?: number;
+  noVotes?: number;
 }
 
 interface GameCardDataEntry {
@@ -67,8 +71,19 @@ const GamePlay = () => {
   const [selectedLevels, setSelectedLevels] = useState<Set<number>>(
     new Set([1, 2, 3]),
   );
+  /** Tracks vote per card id for this session (UI state). */
+  const [votesByCardId, setVotesByCardId] = useState<Record<number, boolean>>({});
 
   const game = games.find((g) => g.id === gameId);
+
+  const handleVote = useCallback(
+    (cardId: number, vote: boolean) => {
+      if (!gameId) return;
+      setVotesByCardId((prev) => ({ ...prev, [cardId]: vote }));
+      submitVote(gameId, cardId, vote);
+    },
+    [gameId],
+  );
 
   const filteredCards = useMemo(() => {
     return allCards.filter((card) => selectedLevels.has(card.difficulty));
@@ -198,6 +213,8 @@ const GamePlay = () => {
                     color={game.color}
                     options={card.options}
                     points={card.difficulty}
+                    onVote={(vote) => handleVote(card.id, vote)}
+                    voted={votesByCardId[card.id] ?? null}
                   />
                 </CarouselItem>
               ))}

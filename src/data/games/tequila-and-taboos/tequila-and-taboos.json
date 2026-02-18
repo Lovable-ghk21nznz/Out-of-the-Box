@@ -1,38 +1,634 @@
 {
   "cards": [
-    { "text": "What's your most controversial opinion?", "difficulty": 2 },
-    { "text": "Do you think some cultures are better than others?", "difficulty": 3 },
-    { "text": "What's your take on the death penalty?", "difficulty": 2 },
-    { "text": "What's your take on the current education system and what would you change?", "difficulty": 1 },
-    { "text": "Do you think the system would work better with more centralization or decentralization?", "difficulty": 2 },
-    { "text": "Can you think of a system better than capitalism?", "difficulty": 2 },
-    { "text": "Do you think women have more struggles than men?", "difficulty": 3 },
-    { "text": "Do you think we are more shaped by culture or genetics?", "difficulty": 2 },
-    { "text": "What's your take on free will?", "difficulty": 1 },
-    { "text": "If you could live in any era, which would it be and why?", "difficulty": 1 },
-    { "text": "If you could implement one law, what would it be?", "difficulty": 1 },
-    { "text": "What do you think happens after death?", "difficulty": 1 },
-    { "text": "Do you like being human?", "difficulty": 1 },
-    { "text": "If you could erase one thing from existence, what would it be?", "difficulty": 1 },
-    { "text": "What is the most admirable aspect of human nature? What about the worst?", "difficulty": 1 },
-    { "text": "Do you think it's possible for men and women to only be friends?", "difficulty": 2 },
-    { "text": "What's a human characteristic that you believe will never change?", "difficulty": 1 },
-    { "text": "What do you think will be ridiculous in 10 years that is currently quite popular?", "difficulty": 1 },
-    { "text": "What's your purpose in the world?", "difficulty": 1 },
-    { "text": "Would the world be a better place without religion? Can we truly escape belief systems?", "difficulty": 3 },
-    { "text": "Is it true that happiness is the most important goal in life?", "difficulty": 1 },
-    { "text": "Is the value of everyone's life the same?", "difficulty": 3 },
-    { "text": "What do you think of the penitentiary system and what would you change?", "difficulty": 2 },
-    { "text": "Why are people so inclined to hold onto beliefs that cannot be proven?", "difficulty": 2 },
-    { "text": "How important do you think genes are in choosing friends and partners?", "difficulty": 2 },
-    { "text": "What's your take on addiction and how to deal with it?", "difficulty": 2 },
-    { "text": "Do you have taboos and do you think they are healthy?", "difficulty": 2 },
-    { "text": "How much do you think we are conditioned by our childhood and how it affects our relationships?", "difficulty": 1 },
-    { "text": "Is jealousy a normal thing in a relationship? Is it desirable?", "difficulty": 1 },
-    { "text": "In which direction do you think society is going? What are the scariest characteristics of our society?", "difficulty": 2 },
-    { "text": "What's your take on social media and how it affects our lives?", "difficulty": 1 },
-    { "text": "How much do you think the news is manipulated?", "difficulty": 2 },
-    { "text": "What's your take on monogamy?", "difficulty": 2 },
-    { "text": "Do you think slavery is inevitable?", "difficulty": 3 }
+    {
+      "id": 1,
+      "text": "What's your most controversial opinion?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 2,
+      "text": "Do you think some cultures are better than others?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 3,
+      "text": "What's your take on the death penalty?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 4,
+      "text": "What's your take on the current education system and what would you change?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 5,
+      "text": "Do you think the system would work better with more centralization or decentralization?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 6,
+      "text": "Can you think of a system better than capitalism?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 7,
+      "text": "Do you think women have more struggles than men?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 8,
+      "text": "Do you think we are more shaped by culture or genetics?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 9,
+      "text": "What's your take on free will?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 10,
+      "text": "If you could live in any era, which would it be and why?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 11,
+      "text": "If you could implement one law, what would it be?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 12,
+      "text": "What do you think happens after death?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 13,
+      "text": "Do you like being human?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 14,
+      "text": "If you could erase one thing from existence, what would it be?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 15,
+      "text": "What is the most admirable aspect of human nature? What about the worst?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 16,
+      "text": "Do you think it's possible for men and women to only be friends?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 17,
+      "text": "What's a human characteristic that you believe will never change?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 18,
+      "text": "What do you think will be ridiculous in 10 years that is currently quite popular?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 19,
+      "text": "What's your purpose in the world?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 20,
+      "text": "Would the world be a better place without religion? Can we truly escape belief systems?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 21,
+      "text": "Is it true that happiness is the most important goal in life?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 22,
+      "text": "Is the value of everyone's life the same?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 23,
+      "text": "What do you think of the penitentiary system and what would you change?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 24,
+      "text": "Why are people so inclined to hold onto beliefs that cannot be proven?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 25,
+      "text": "How important do you think genes are in choosing friends and partners?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 26,
+      "text": "What's your take on addiction and how to deal with it?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 27,
+      "text": "Do you have taboos and do you think they are healthy?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 28,
+      "text": "How much do you think we are conditioned by our childhood and how it affects our relationships?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 29,
+      "text": "Is jealousy a normal thing in a relationship? Is it desirable?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 30,
+      "text": "In which direction do you think society is going? What are the scariest characteristics of our society?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 31,
+      "text": "What's your take on social media and how it affects our lives?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 32,
+      "text": "How much do you think the news is manipulated?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 33,
+      "text": "What's your take on monogamy?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 34,
+      "text": "Do you think slavery is inevitable?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 35,
+      "text": "What makes someone a good person?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 36,
+      "text": "Should voting be mandatory?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 37,
+      "text": "Is social media doing more harm than good to society?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 38,
+      "text": "Should there be a limit on how much wealth one person can accumulate?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 39,
+      "text": "Is it better to be honest and hurt someone or lie to protect them?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 40,
+      "text": "Do you think people can truly change?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 41,
+      "text": "Is privacy a right or a privilege in the modern world?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 42,
+      "text": "Should parents be held responsible for their children's actions?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 43,
+      "text": "Is ambition a virtue or a flaw?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 44,
+      "text": "Do you think everyone deserves a second chance?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 45,
+      "text": "Is it possible to have a truly unbiased opinion?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 46,
+      "text": "Should art ever be censored?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 47,
+      "text": "Is tradition worth preserving if it no longer serves a purpose?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 48,
+      "text": "Do you think technology is making us smarter or lazier?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 49,
+      "text": "Should people be required to do community service?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 50,
+      "text": "Is it ethical to eat meat?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 51,
+      "text": "Do celebrities have a responsibility to be role models?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 52,
+      "text": "Is competition healthy or destructive?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 53,
+      "text": "Should AI be allowed to make decisions that affect people's lives?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 54,
+      "text": "Is cancel culture a form of justice or mob mentality?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 55,
+      "text": "Is it ever justified to break the law for a moral cause?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 56,
+      "text": "Should drugs be decriminalized?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 57,
+      "text": "Do rich people have an obligation to give away their wealth?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 58,
+      "text": "Is nationalism inherently dangerous?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 59,
+      "text": "Should euthanasia be legal everywhere?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 60,
+      "text": "Is it ethical to genetically modify humans?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 61,
+      "text": "Do you think borders should exist?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 62,
+      "text": "Should we prioritize the economy over the environment?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 63,
+      "text": "Is political correctness helping or silencing society?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 64,
+      "text": "Should people be allowed to sell their own organs?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 65,
+      "text": "Is revenge ever morally justified?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 66,
+      "text": "Is it moral to sacrifice one person to save five?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 67,
+      "text": "Should there be a test to become a parent?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 68,
+      "text": "Is colonialism's legacy still more harmful than beneficial?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 69,
+      "text": "Would you report a family member who committed a serious crime?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 70,
+      "text": "Is it ethical to have children knowing the state of the world?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 71,
+      "text": "Should prisoners lose the right to vote?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 72,
+      "text": "Is patriotism just socially acceptable tribalism?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 73,
+      "text": "Should the ultra-wealthy be forced to fund public services?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 74,
+      "text": "Is it moral to profit from someone else's suffering?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 75,
+      "text": "Would the world be better without the concept of race?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 76,
+      "text": "Should there be an age limit for politicians?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 77,
+      "text": "Is it ethical to use animals for medical research?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 78,
+      "text": "Can war ever be morally right?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 79,
+      "text": "Do you think humanity deserves to survive as a species?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 80,
+      "text": "Should pedophiles receive treatment instead of prison?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 81,
+      "text": "Is total surveillance acceptable if it eliminates crime?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 82,
+      "text": "Should people with hereditary diseases be discouraged from having children?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 83,
+      "text": "Is democracy the best system, or just the least bad?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 84,
+      "text": "Should billionaires exist?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 85,
+      "text": "Is ignorance ever a valid excuse for harmful behavior?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 86,
+      "text": "Would you sacrifice your own freedom to guarantee peace for everyone else?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 87,
+      "text": "Is it ethical to lie under oath to protect someone you love?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 88,
+      "text": "Should terminally ill people have the right to try experimental drugs?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 89,
+      "text": "Does absolute power always corrupt, or can someone wield it wisely?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 90,
+      "text": "If you could eliminate all religion or all government, which would you choose and why?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    }
   ]
 }

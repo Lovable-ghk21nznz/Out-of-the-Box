@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { motion } from "framer-motion";
-
+import { ThumbsUp, ThumbsDown } from "lucide-react";
+import { Button } from "@/components/ui/button";
 interface PlayingCardProps {
   content?: string;
   color: string;
@@ -8,6 +9,10 @@ interface PlayingCardProps {
   options?: string[];
   /** Points (e.g. sips) corresponding to difficulty level */
   points?: number;
+  /** Callback when user votes (true = yes, false = no) */
+  onVote?: (vote: boolean) => void;
+  /** If user already voted this session */
+  voted?: boolean | null;
 }
 
 export const PlayingCard = ({
@@ -16,6 +21,8 @@ export const PlayingCard = ({
   prompt,
   options,
   points,
+  onVote,
+  voted = null,
 }: PlayingCardProps) => {
   return (
     <motion.div
@@ -55,13 +62,38 @@ export const PlayingCard = ({
             )}
           </div>
         </div>
-        {points != null && (
-          <div className="absolute bottom-4 left-0 right-0 text-center">
+        <div className="absolute bottom-4 left-0 right-0 flex flex-col items-center gap-2">
+          {points != null && (
             <span className="text-sm font-medium text-white/80">
               Points: {points}
             </span>
-          </div>
-        )}
+          )}
+          {onVote && (
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-white/70 mr-1">Good card?</span>
+              <Button
+                type="button"
+                size="icon"
+                variant={voted === true ? "default" : "secondary"}
+                className="h-8 w-8 rounded-full bg-white/20 hover:bg-white/30 border-0"
+                onClick={() => onVote(true)}
+                aria-label="Vote yes"
+              >
+                <ThumbsUp className="h-4 w-4 text-white" />
+              </Button>
+              <Button
+                type="button"
+                size="icon"
+                variant={voted === false ? "default" : "secondary"}
+                className="h-8 w-8 rounded-full bg-white/20 hover:bg-white/30 border-0"
+                onClick={() => onVote(false)}
+                aria-label="Vote no"
+              >
+                <ThumbsDown className="h-4 w-4 text-white" />
+              </Button>
+            </div>
+          )}
+        </div>
       </Card>
     </motion.div>
   );

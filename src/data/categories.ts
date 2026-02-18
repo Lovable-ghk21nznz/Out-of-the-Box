@@ -11,6 +11,7 @@ export interface Game {
   id: string;
   name: string;
   description: string;
+  origin: string;
   emoji: string;
   cardCount: number;
   gradient: string;
@@ -21,6 +22,7 @@ export const games: Game[] = [
   {
     id: "brandystorm",
     name: "BrandyStorm",
+    origin: "Buzzed",
     description: "Discover secrets and shared experiences",
     emoji: "🍻",
     cardCount: brandystormData.cards.length,
@@ -30,6 +32,7 @@ export const games: Game[] = [
   {
     id: "love-on-the-rocks",
     name: "Love on the Rocks",
+    origin: "Dating",
     description: "Dating game fun",
     emoji: "💑",
     cardCount: loveOnTheRocksData.cards.length,
@@ -39,6 +42,7 @@ export const games: Game[] = [
   {
     id: "rum-and-reflection",
     name: "Rum & Reflection",
+    origin: "Deep Talk",
     description: "Meaningful conversations starter",
     emoji: "✨",
     cardCount: rumAndReflectionData.cards.length,
@@ -48,6 +52,7 @@ export const games: Game[] = [
   {
     id: "tequila-and-taboos",
     name: "Tequila & Taboos",
+    origin: "Hot Topics",
     description: "Debate controversial topics",
     emoji: "🔥",
     cardCount: tequilaAndTaboosData.cards.length,
@@ -57,6 +62,7 @@ export const games: Game[] = [
   {
     id: "shots-fired",
     name: "Shots Fired",
+    origin: "Most Likely",
     description: "Guess the most likely outcome",
     emoji: "🤔",
     cardCount: shotsFiredData.cards.length,
@@ -66,6 +72,7 @@ export const games: Game[] = [
   {
     id: "tipsy-doodles",
     name: "Tipsy Doodles",
+    origin: "Pictionary Adult",
     description: "Draw challenging and funny scenarios",
     emoji: "🎨",
     cardCount: tipsyDoodlesData.cards.length,
@@ -75,6 +82,7 @@ export const games: Game[] = [
   {
     id: "truth-and-tonic",
     name: "Truth & Tonic",
+    origin: "Truth or Drink",
     description: "Answer honestly or take a sip",
     emoji: "🍹",
     cardCount: truthAndTonicData.cards.length,
@@ -84,6 +92,7 @@ export const games: Game[] = [
   {
     id: "booze-roulette",
     name: "Booze Roulette",
+    origin: "Would You Rather",
     description: "Pick the best (or least worst) from the options",
     emoji: "☠️",
     cardCount: boozeRouletteData.cards.length,

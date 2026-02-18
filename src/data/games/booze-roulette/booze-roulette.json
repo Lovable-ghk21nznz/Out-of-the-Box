@@ -2,221 +2,365 @@
   "prompt": "Order from best to worst:",
   "cards": [
     {
-      "options": ["know how you die", "when you die"],
-      "difficulty": 1
+      "id": 1,
+      "options": [
+        "know how you die",
+        "when you die"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["lose all memories", "never make new ones"],
-      "difficulty": 1
+      "id": 2,
+      "options": [
+        "lose all memories",
+        "never make new ones"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["be able to fly", "teleport", "time travel", "be invisible"],
-      "difficulty": 1
+      "id": 3,
+      "options": [
+        "be able to fly",
+        "teleport",
+        "time travel",
+        "be invisible"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["read minds", "move things with your mind"],
-      "difficulty": 1
+      "id": 4,
+      "options": [
+        "read minds",
+        "move things with your mind"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 5,
       "options": [
         "live without music",
         "without TV (movies, series, etc)",
         "live without internet",
         "have to do household chores by hand"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 6,
       "options": [
         "have unlimited money",
         "unlimited time",
         "know every one you want",
         "eat from any restaurant for free and without gaining weight"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 7,
       "options": [
         "explore space",
         "go to the ocean depths",
         "travel to the past"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 8,
       "options": [
         "know all languages",
         "play every instrument",
         "talk with animals",
         "remember everything from the last year"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 9,
       "options": [
         "be incredibly smart",
         "extremely attractive",
         "be a master manipulator"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 10,
       "options": [
         "always say what you think",
         "never speak",
         "loose ability to read",
         "have kids be able to read your mind"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["give up coffee", "social media", "sugar", "alcohol"],
-      "difficulty": 1
+      "id": 11,
+      "options": [
+        "give up coffee",
+        "give up social media",
+        "give up sugar",
+        "give up alcohol"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 12,
       "options": [
         "always have no traffic",
         "never have to stand in line again",
         "never wait on restaurants to be seated and served",
         "other people always arrive on time"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 13,
       "options": [
         "get $10,000",
         "your best friend get $100,000",
-        "a homeless person get $10 million"
+        "a homeless person get $1million"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["have a pet dinosaur", "a pet dragon", "a pet unicorn"],
-      "difficulty": 1
+      "id": 14,
+      "options": [
+        "have a pet dinosaur",
+        "have a pet dragon",
+        "have a pet unicorn"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
-
     {
+      "id": 15,
       "options": [
         "have sex with a sheep and no one knows about it",
         "dont but everyone believes you did"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 16,
       "options": [
         "publicly expose your partner's biggest secret",
         "have them expose yours"
       ],
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 17,
       "options": [
         "never have good sex with someone you love",
-        "have great sex with someone you don't love"
+        "always have great sex with someone you don't love"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 18,
       "options": [
         "have your past internet history made public",
         "stab someone without getting caught (he would survive)"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["be chronically under-dressed", "overdressed"],
-      "difficulty": 1
+      "id": 19,
+      "options": [
+        "be chronically under-dressed",
+        "overdressed"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["have a personal maid", "a personal chef"],
-      "difficulty": 1
+      "id": 20,
+      "options": [
+        "have a personal maid",
+        "a personal chef"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
-
     {
+      "id": 21,
       "options": [
         "wear the same socks for a month",
         "the same underwear for a week"
       ],
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 22,
       "options": [
         "walk in on your parents having sex",
         "have them walk in on you having sex"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["find true love today", "win the lottery next year"],
-      "difficulty": 1
+      "id": 23,
+      "options": [
+        "find true love today",
+        "win the lottery next year"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 24,
       "options": [
         "have the ability to erase your worst memory by reliving it once",
         "remain as you are"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 25,
       "options": [
         "be the creator of an idea that changes the world but die unknown,",
         "be famous your whole life but leave no impact"
       ],
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 26,
       "options": [
         "your child inherit all your worst traits",
         "none of your best traits"
       ],
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["have a perfect memory for faces", "for names"],
-      "difficulty": 1
+      "id": 27,
+      "options": [
+        "have a perfect memory for faces",
+        "for names"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["be the best at one thing", "above average at everything"],
-      "difficulty": 1
+      "id": 28,
+      "options": [
+        "be the best at one thing",
+        "above average at everything"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["have a house by the beach", "a cabin in the mountains"],
-      "difficulty": 1
+      "id": 29,
+      "options": [
+        "have a house by the beach",
+        "a cabin in the mountains"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["never feel cold", "never feel too hot"],
-      "difficulty": 1
+      "id": 30,
+      "options": [
+        "never feel cold",
+        "never feel too hot"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 31,
       "options": [
         "have dinner with a historical figure",
         "a fictional character"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 32,
       "options": [
         "wake up at 5 a.m. every day",
         "go to bed at 2 a.m. every night"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 33,
       "options": [
         "have a job you love that pays poorly",
         "a job you hate that pays well"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 34,
       "options": [
         "have a tiny house in your dream city",
         "a mansion in the middle of nowhere"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
-
     {
+      "id": 35,
       "options": [
         "be able to control fire",
         "control water",
@@ -224,94 +368,142 @@
         "control earth",
         "control metal"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 36,
       "options": [
         "have a clone that does your chores",
         "a robot that does your job"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 37,
       "options": [
         "never be able to use a phone again",
         "never use a car again"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["be stuck in a lift with your boss", "with your in-laws"],
-      "difficulty": 2
+      "id": 38,
+      "options": [
+        "be stuck in a lift with your boss",
+        "with your in-laws"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["your partner see your browser history", "your notes app"],
-      "difficulty": 2
+      "id": 39,
+      "options": [
+        "your partner see your browser history",
+        "your notes app"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 40,
       "options": [
         "be the smartest person in the room who no one listens to",
         "the least smart who everyone trusts"
       ],
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 41,
       "options": [
         "have to relive your worst day once a year",
         "have a random day erased from your memory every year"
       ],
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 42,
       "options": [
         "live forever and watch everyone you love die",
         "die first and never know what happens to them"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 43,
       "options": [
         "have caused someone's death by accident",
         "have saved someone who later does something unforgivable"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 44,
       "options": [
         "know that free will is an illusion",
         "live as if it isn't and never know for sure"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 45,
       "options": [
         "save a stranger's life and lose a limb",
         "keep your limb and they die"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 46,
       "options": [
         "have your mind uploaded to live forever in a machine",
         "die with your body and never know what comes next"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 47,
       "options": [
         "have a child who hates you but is successful",
         "one who loves you but fails at everything"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 48,
       "options": [
         "have unlimited empathy that exhausts you",
         "no empathy and never understand others"
       ],
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 49,
       "options": [
         "Lose your sense of sight",
         "Lose your sense of hearing",
@@ -319,75 +511,466 @@
         "Lose your sense of taste",
         "Lose your sense of smell"
       ],
-      "difficulty": 1
-    },
-
-    {
-      "options": ["Fight one horse-sized duck", "Fight 100 duck-sized horses"],
-      "difficulty": 1
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 50,
+      "options": [
+        "Fight one horse-sized duck",
+        "Fight 100 duck-sized horses"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 51,
       "options": [
         "Fight 1 hyena",
         "Fight 2 wild dogs",
         "Fight 3 snakes",
         "Fight 10 rats"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 52,
       "options": [
         "Always have wet socks",
         "Always have a small rock in your shoe",
         "Always feel like you need to sneeze"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["Have a photographic memory", "Have unlimited creativity"],
-      "difficulty": 1
+      "id": 53,
+      "options": [
+        "Have a photographic memory",
+        "Have unlimited creativity"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 54,
       "options": [
         "Give up cheese forever",
         "Give up chocolate forever",
         "Give up meat forever",
         "Give up alcohol forever"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["Have no elbows", "Have no knees"],
-      "difficulty": 1
+      "id": 55,
+      "options": [
+        "Have no elbows",
+        "Have no knees"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 56,
       "options": [
         "Be trapped in a romantic comedy",
         "Be trapped in a horror movie"
       ],
-      "difficulty": 1
-    },
-
-    {
-      "options": ["Only be able to whisper", "Only be able to shout"],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["Have a permanent unibrow", "Have no eyebrows at all"],
-      "difficulty": 1
+      "id": 57,
+      "options": [
+        "Only be able to whisper",
+        "Only be able to shout"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "options": ["Always smell like garlic", "Always smell like fish"],
-      "difficulty": 1
+      "id": 58,
+      "options": [
+        "Have a permanent unibrow",
+        "Have no eyebrows at all"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 59,
+      "options": [
+        "Always smell like garlic",
+        "Always smell like fish"
+      ],
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 60,
       "options": [
         "Never be able to eat hot food again",
         "Never be able to eat cold food again",
         "Never be able to eat solid food again",
         "Never be able to eat liquid food again"
       ],
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 61,
+      "options": [
+        "always arrive 30 minutes early",
+        "always arrive 30 minutes late"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 62,
+      "options": [
+        "have everyone know your salary",
+        "have everyone know your body count"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 63,
+      "options": [
+        "relive your most embarrassing moment once a year",
+        "forget your happiest memory"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 64,
+      "options": [
+        "have your crush read all your texts about them",
+        "have your ex read your diary"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 65,
+      "options": [
+        "know what everyone thinks of you",
+        "never know but always wonder"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 66,
+      "options": [
+        "give up dating for 5 years",
+        "give up all friendships for 5 years"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 67,
+      "options": [
+        "be famous but constantly criticized",
+        "be unknown but deeply respected"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 68,
+      "options": [
+        "always have to tell the truth",
+        "never be believed even when honest"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 69,
+      "options": [
+        "lose all your photos and memories from your phone",
+        "have them all posted publicly"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 70,
+      "options": [
+        "be the one who always ends relationships",
+        "always be the one who gets dumped"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 71,
+      "options": [
+        "have your parents read your group chats",
+        "your group chat read your parents' messages"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 72,
+      "options": [
+        "date someone your friends hate",
+        "date someone your family hates"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 73,
+      "options": [
+        "know your partner's exact body count",
+        "never know and never be able to ask"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 74,
+      "options": [
+        "be the jealous one in a relationship",
+        "be with someone who is jealous"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 75,
+      "options": [
+        "be emotionally unavailable",
+        "be too emotionally dependent"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 76,
+      "options": [
+        "have a great career and a mediocre love life",
+        "a great love life and a mediocre career"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 77,
+      "options": [
+        "always know when someone is lying to you",
+        "be the world's best liar"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 78,
+      "options": [
+        "forget everyone you've ever met",
+        "have everyone forget you"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 79,
+      "options": [
+        "speak every language but never feel at home anywhere",
+        "feel at home but only speak one language"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 80,
+      "options": [
+        "marry your best friend without romance",
+        "marry a stranger you're wildly attracted to"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 81,
+      "options": [
+        "know when you'll die",
+        "know when your partner will die"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 82,
+      "options": [
+        "accidentally send a nude to a family group chat",
+        "have your entire search history emailed to your contacts"
+      ],
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 83,
+      "options": [
+        "have your partner sleep with your best friend once",
+        "sleep with your partner's best friend once"
+      ],
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 84,
+      "options": [
+        "watch your partner kiss someone passionately",
+        "have them watch you do it"
+      ],
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 85,
+      "options": [
+        "give up all physical intimacy forever",
+        "give up all emotional intimacy forever"
+      ],
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 86,
+      "options": [
+        "know the exact date of your death",
+        "know the exact date of your parents' death"
+      ],
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 87,
+      "options": [
+        "have your darkest thought broadcast to everyone in this room",
+        "have to act on it"
+      ],
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 88,
+      "options": [
+        "betray your best friend to save your own life",
+        "die to save theirs"
+      ],
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 89,
+      "options": [
+        "have everyone you love forget you exist",
+        "remember everyone but never see them again"
+      ],
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 90,
+      "options": [
+        "find out your entire life was a simulation",
+        "find out nothing happens after death"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 91,
+      "options": [
+        "lose the ability to feel love",
+        "lose the ability to feel pleasure"
+      ],
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 92,
+      "options": [
+        "know the truth about every lie ever told to you",
+        "remain blissfully ignorant"
+      ],
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 93,
+      "options": [
+        "have your most shameful moment play on a loop in your head",
+        "have it play on a screen in public once"
+      ],
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 94,
+      "options": [
+        "kill one person to save a hundred",
+        "let a hundred die because you couldn't act"
+      ],
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     }
   ]
 }

@@ -1,87 +1,823 @@
 {
   "cards": [
-    { "text": "A politician caught in a lie", "difficulty": 1 },
-    { "text": "Someone trying to parallel park drunk", "difficulty": 1 },
-    { "text": "Pedophile getting caught", "difficulty": 1 },
-    { "text": "A therapy session gone wrong", "difficulty": 1 },
-    { "text": "A walk of shame", "difficulty": 1 },
-    { "text": "Walking in on your parents having sex", "difficulty": 1 },
-    { "text": "A fight in the gym", "difficulty": 1 },
-    { "text": "A gambler losing all their money in the casino", "difficulty": 1 },
-    { "text": "A kid in an adult's body", "difficulty": 1 },
-    { "text": "A gorilla fighting 100 people", "difficulty": 1 },
-    { "text": "Bad sex", "difficulty": 1 },
-    { "text": "A baby getting drunk", "difficulty": 1 },
-    { "text": "A yoga instructor farting mid-class", "difficulty": 1 },
-    { "text": "A drunk tattoo", "difficulty": 1 },
-    { "text": "A priest caught at a strip club", "difficulty": 1 },
-    { "text": "Someone caught watching porn in VR", "difficulty": 1 },
-    { "text": "A couple fighting in IKEA", "difficulty": 1 },
-    { "text": "A person flirting with a mannequin", "difficulty": 1 },
-    { "text": "Having dirty talks with chatgpt", "difficulty": 1 },
-    { "text": "Phone sex", "difficulty": 1 },
-    { "text": "A blind date with a blind", "difficulty": 1 },
-    { "text": "Naked google/zoom meets call", "difficulty": 1 },
-    { "text": "A couple roleplaying as superheroes", "difficulty": 1 },
-    { "text": "A first date at a funeral", "difficulty": 1 },
-    { "text": "Sexual Pizza Guy delivery", "difficulty": 1 },
-    { "text": "A guy who walks through walls", "difficulty": 1 },
-    { "text": "The meaning of life", "difficulty": 1 },
-    { "text": "Schrödinger's cat", "difficulty": 1 },
-    { "text": "A fork in the road", "difficulty": 1 },
-    { "text": "Opening Pandora's box", "difficulty": 1 },
-    { "text": "The elephant in the room", "difficulty": 1 },
-    { "text": "A double-edged sword", "difficulty": 1 },
-    { "text": "Time slipping through your fingers", "difficulty": 1 },
-    { "text": "A house of cards collapsing", "difficulty": 1 },
-    { "text": "A labyrinth with no exit", "difficulty": 1 },
-    { "text": "Catching smoke with your hands", "difficulty": 1 },
-    { "text": "A coin with two faces", "difficulty": 1 },
-    { "text": "A light at the end of a tunnel", "difficulty": 1 },
-    { "text": "A man juggling clocks", "difficulty": 1 },
-    { "text": "Balancing on a tightrope over water", "difficulty": 1 },
-    { "text": "A melting clock", "difficulty": 1 },
-    { "text": "An ouroboros (snake eating its tail)", "difficulty": 1 },
-    { "text": "A person divided in two halves", "difficulty": 1 },
-    { "text": "A tree growing upside down", "difficulty": 1 },
-    { "text": "A mask hiding another mask", "difficulty": 1 },
-    { "text": "A candle burning at both ends", "difficulty": 1 },
-    { "text": "A person trapped in a thought bubble", "difficulty": 1 },
-    { "text": "A mirror reflecting infinite mirrors", "difficulty": 1 },
-    { "text": "A bridge to nowhere", "difficulty": 1 },
-    { "text": "A person walking on the edge of a knife", "difficulty": 1 },
-    { "text": "A puppet cutting its own strings", "difficulty": 1 },
-    { "text": "A maze inside a brain", "difficulty": 1 },
-    { "text": "A person chasing their own shadow", "difficulty": 1 },
-    { "text": "A key opening an invisible door", "difficulty": 1 },
-    { "text": "A person holding a black hole", "difficulty": 1 },
-    { "text": "A person drowning in paperwork", "difficulty": 1 },
-    { "text": "A candle in the wind", "difficulty": 1 },
-    { "text": "A door that leads to itself", "difficulty": 1 },
-    { "text": "A tree with human arms as branches", "difficulty": 1 },
-    { "text": "A storm inside a teacup", "difficulty": 1 },
-    { "text": "A river flowing uphill", "difficulty": 1 },
-    { "text": "A person trapped in a glass cube", "difficulty": 1 },
-    { "text": "A mirror showing the past instead of reflection", "difficulty": 1 },
-    { "text": "A person dissolving into water", "difficulty": 1 },
-    { "text": "A person juggling their own fears", "difficulty": 1 },
-    { "text": "A shadow pulling someone off a cliff", "difficulty": 1 },
-    { "text": "Bachelor party full of priests", "difficulty": 1 },
-    { "text": "Blowjob with chantilly", "difficulty": 1 },
-    { "text": "A couple kissing through a mirror", "difficulty": 1 },
-    { "text": "Sushi in a naked woman's body", "difficulty": 1 },
-    { "text": "Imaginary friends", "difficulty": 1 },
-    { "text": "A fish flying a plane", "difficulty": 1 },
-    { "text": "A cat walking a human on a leash", "difficulty": 1 },
-    { "text": "A running tree", "difficulty": 1 },
-    { "text": "A chair sitting on a person", "difficulty": 1 },
-    { "text": "A man being carried by ants", "difficulty": 1 },
-    { "text": "A dog teaching yoga to humans", "difficulty": 1 },
-    { "text": "A sofa asking a pizza on the phone", "difficulty": 1 },
-    { "text": "A house folding itself like paper", "difficulty": 1 },
-    { "text": "A man running from time", "difficulty": 1 },
-    { "text": "Clothes folding a human like laundry", "difficulty": 1 },
-    { "text": "An orgy", "difficulty": 1 },
-    { "text": "Upside down world", "difficulty": 1 }
+    {
+      "id": 1,
+      "text": "A politician caught in a lie",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 2,
+      "text": "Someone trying to parallel park drunk",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 3,
+      "text": "Pedophile getting caught",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 4,
+      "text": "A therapy session gone wrong",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 5,
+      "text": "A walk of shame",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 6,
+      "text": "Walking in on your parents having sex",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 7,
+      "text": "A fight in the gym",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 8,
+      "text": "A gambler losing all their money in the casino",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 9,
+      "text": "A kid in an adult's body",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 10,
+      "text": "A gorilla fighting 100 people",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 11,
+      "text": "Bad sex",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 12,
+      "text": "A baby getting drunk",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 13,
+      "text": "A yoga instructor farting mid-class",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 14,
+      "text": "A drunk tattoo",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 15,
+      "text": "A priest caught at a strip club",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 16,
+      "text": "Someone caught watching porn in VR",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 17,
+      "text": "A couple fighting in IKEA",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 18,
+      "text": "A person flirting with a mannequin",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 19,
+      "text": "Having dirty talks with chatgpt",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 20,
+      "text": "Phone sex",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 21,
+      "text": "A blind date with a blind",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 22,
+      "text": "Naked google/zoom meets call",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 23,
+      "text": "A couple roleplaying as superheroes",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 24,
+      "text": "A first date at a funeral",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 25,
+      "text": "Sexual Pizza Guy delivery",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 26,
+      "text": "A guy who walks through walls",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 27,
+      "text": "The meaning of life",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 28,
+      "text": "Schrödinger's cat",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 29,
+      "text": "A fork in the road",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 30,
+      "text": "Opening Pandora's box",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 31,
+      "text": "The elephant in the room",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 32,
+      "text": "A double-edged sword",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 33,
+      "text": "Time slipping through your fingers",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 34,
+      "text": "A house of cards collapsing",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 35,
+      "text": "A labyrinth with no exit",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 36,
+      "text": "Catching smoke with your hands",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 37,
+      "text": "A coin with two faces",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 38,
+      "text": "A light at the end of a tunnel",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 39,
+      "text": "A man juggling clocks",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 40,
+      "text": "Balancing on a tightrope over water",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 41,
+      "text": "A melting clock",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 42,
+      "text": "An ouroboros (snake eating its tail)",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 43,
+      "text": "A person divided in two halves",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 44,
+      "text": "A tree growing upside down",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 45,
+      "text": "A mask hiding another mask",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 46,
+      "text": "A candle burning at both ends",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 47,
+      "text": "A person trapped in a thought bubble",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 48,
+      "text": "A mirror reflecting infinite mirrors",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 49,
+      "text": "A bridge to nowhere",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 50,
+      "text": "A person walking on the edge of a knife",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 51,
+      "text": "A puppet cutting its own strings",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 52,
+      "text": "A maze inside a brain",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 53,
+      "text": "A person chasing their own shadow",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 54,
+      "text": "A key opening an invisible door",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 55,
+      "text": "A person holding a black hole",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 56,
+      "text": "A person drowning in paperwork",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 57,
+      "text": "A candle in the wind",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 58,
+      "text": "A door that leads to itself",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 59,
+      "text": "A tree with human arms as branches",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 60,
+      "text": "A storm inside a teacup",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 61,
+      "text": "A river flowing uphill",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 62,
+      "text": "A person trapped in a glass cube",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 63,
+      "text": "A mirror showing the past instead of reflection",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 64,
+      "text": "A person dissolving into water",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 65,
+      "text": "A person juggling their own fears",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 66,
+      "text": "A shadow pulling someone off a cliff",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 67,
+      "text": "Bachelor party full of priests",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 68,
+      "text": "Blowjob with chantilly",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 69,
+      "text": "A couple kissing through a mirror",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 70,
+      "text": "Sushi in a naked woman's body",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 71,
+      "text": "Imaginary friends",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 72,
+      "text": "A fish flying a plane",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 73,
+      "text": "A cat walking a human on a leash",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 74,
+      "text": "A running tree",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 75,
+      "text": "A chair sitting on a person",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 76,
+      "text": "A man being carried by ants",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 77,
+      "text": "A dog teaching yoga to humans",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 78,
+      "text": "A sofa asking a pizza on the phone",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 79,
+      "text": "A house folding itself like paper",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 80,
+      "text": "A man running from time",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 81,
+      "text": "Clothes folding a human like laundry",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 82,
+      "text": "An orgy",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 83,
+      "text": "Upside down world",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 84,
+      "text": "A walk of fame but everyone is embarrassed",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 85,
+      "text": "Someone flirting badly at a bar",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 86,
+      "text": "A couple caught making out in public",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 87,
+      "text": "An awkward morning after",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 88,
+      "text": "A stripper at a retirement home",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 89,
+      "text": "A drunk person trying to be seductive",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 90,
+      "text": "A massage that went too far",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 91,
+      "text": "Two people handcuffed together",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 92,
+      "text": "A lap dance gone wrong",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 93,
+      "text": "Netflix and chill",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 94,
+      "text": "A walk of shame in a wedding dress",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 95,
+      "text": "Mile high club",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 96,
+      "text": "Skinny dipping",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 97,
+      "text": "A dominatrix at a PTA meeting",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 98,
+      "text": "Body shots at a funeral",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 99,
+      "text": "A naked chef",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 100,
+      "text": "Strip poker with grandma",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 101,
+      "text": "Sexting the wrong person",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 102,
+      "text": "A burlesque show at church",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 103,
+      "text": "Two people under a blanket on a bus",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 104,
+      "text": "A naughty librarian",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 105,
+      "text": "A love hotel check-in",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 106,
+      "text": "Morning wood at a sleepover",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 107,
+      "text": "A sex shop employee giving advice",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 108,
+      "text": "Someone hiding their browser history",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 109,
+      "text": "A secret affair at the office",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 110,
+      "text": "Fifty shades of grey but at IKEA",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 111,
+      "text": "A couple arguing in bed",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 112,
+      "text": "Tinder date disaster",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 113,
+      "text": "A drunk proposal",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 114,
+      "text": "Someone caught leaving the ex's house",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 115,
+      "text": "A honeymoon gone wrong",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 116,
+      "text": "Friends with benefits",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 117,
+      "text": "A wardrobe malfunction on live TV",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    }
   ]
 }

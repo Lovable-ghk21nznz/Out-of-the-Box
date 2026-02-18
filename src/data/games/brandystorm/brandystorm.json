@@ -2,301 +2,676 @@
   "prompt": "Drink if ",
   "cards": [
     {
+      "id": 1,
       "text": "you've fallen asleep during sex.",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 2,
       "text": "you've written a love letter.",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 3,
       "text": "you've texted the wrong person something romantic.",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 4,
       "text": "you've made up a story to impress someone.",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 5,
       "text": "you've gone on a terrible first date.",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 6,
       "text": "you've kept a relationship secret.",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 7,
       "text": "you've dated two people at once.",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 8,
       "text": "you've gone through your partner's phone.",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 9,
       "text": "you've had a workplace romance.",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 10,
       "text": "you've rehearsed what to say before calling someone.",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 11,
       "text": "you've been set up on a date by friends.",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 12,
       "text": "you've ever had more than 2 coffees in a day.",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 13,
       "text": "you've gotten into a fight",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 14,
       "text": "you've lived abroad.",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 15,
       "text": "you've shoplifted something.",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 16,
       "text": "you've had sex with an ex after breaking up.",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 17,
       "text": "you've had sex in a public place.",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 18,
       "text": "you've been fully naked on a beach.",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 19,
       "text": "you've been to a strip club.",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 20,
       "text": "you've dated more than one person at the same time.",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 21,
       "text": "you've forgotten your best friend's birthday.",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 22,
       "text": "you've dined and dashed.",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 23,
       "text": "you've dropped food on the floor and eaten it.",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 24,
       "text": "you've gone three days without a shower.",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 25,
       "text": "you've made a sex tape.",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 26,
       "text": "you've gone out three nights in a row.",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 27,
       "text": "you've ever fallen for someone in this room",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 28,
       "text": "your first name contains a vowel",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 29,
       "text": "you've had sex in the last month",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 30,
       "text": "you have the longest hair",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 31,
       "text": "you've broken your phone screen",
-      "difficulty": 1
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 32,
       "text": "you were the last person to arrive",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 33,
       "text": "you checked your phone in the last 5 minutes",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 34,
       "text": "you're wearing black clothes",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 35,
       "text": "you're the tallest person here",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 36,
       "text": "you have the most tattoos",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 37,
       "text": "you ordered food delivery this week",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 38,
       "text": "you can't whistle",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 39,
       "text": "you were born in winter",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 40,
       "text": "you have the most apps on your phone. (Download this app)",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 41,
       "text": "you have the most scars",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 42,
       "text": "you've kissed someone of the same sex",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 43,
       "text": "you had sex without kissing",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 44,
       "text": "you are drunk right now",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 45,
       "text": "you've had magic mushrooms",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 46,
       "text": "you've cheated on a test",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 47,
       "text": "you've said 'I'm on the way' while still at home",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 48,
       "text": "you've kissed more than one person in the same night",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 49,
       "text": "you've lied about your age",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 50,
       "text": "you've flirted with someone you shouldn't have",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 51,
       "text": "you've hidden a relationship from your friends or parents",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 52,
       "text": "you've gotten into a fight before, choose a fighting buddy to drink with",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 53,
       "text": "you've been caught having sex",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 54,
       "text": "you've driven a car while drunk",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 55,
       "text": "you've talked to your pet like a human",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 56,
       "text": "you've opened the fridge and forgot why",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 57,
       "text": "you've said 'you too' when it made no sense",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 58,
       "text": "you have blue eyes",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 59,
       "text": "you are wearing jewelry",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 60,
       "text": "you have at least one sibling",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 61,
       "text": "you've been in a relationship for at least a year",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 62,
       "text": "you travelled the most in the group",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
-      "text": "you had a coffe today",
-      "difficulty": 1
+      "id": 63,
+      "text": "you had a coffee today",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 64,
       "text": "you laughed in the last minute",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 65,
       "text": "your birthday day matches with someone in the group",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 66,
       "text": "you want to get married",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
-
     {
+      "id": 67,
       "text": "you've forgotten where you parked your car",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 68,
       "text": "you have hidden a tattoo from your parents",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 69,
       "text": "you've gotten blackout drunk and woken up with zero memory",
-      "difficulty": 3
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 70,
       "text": "you have watched Netflix in the last 24h",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 71,
       "text": "you haven't read a book in the last month",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 72,
       "text": "you have cut your own hair",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 73,
       "text": "you want to give your kid an unusual name (by group consensus)",
-      "difficulty": 2
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
     },
     {
+      "id": 74,
       "text": "you have told a dad joke today",
-      "difficulty": 1
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 75,
+      "text": "you've cried at a movie in front of people.",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 76,
+      "text": "you've pretended not to see someone you know in public.",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 77,
+      "text": "you've faked being sick to get out of work or school.",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 78,
+      "text": "you've re-gifted a present.",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 79,
+      "text": "you've stalked someone on social media for more than 30 minutes.",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 80,
+      "text": "you've eavesdropped on a conversation and got caught.",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 81,
+      "text": "you've sent a risky text you instantly regretted.",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 82,
+      "text": "you've eaten food that wasn't yours from the fridge.",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 83,
+      "text": "you've blamed a fart on someone else.",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 84,
+      "text": "you've hooked up with someone you met that same day.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 85,
+      "text": "you've sent a nude.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 86,
+      "text": "you've woken up next to someone and didn't remember how you got there.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 87,
+      "text": "you've been caught in a lie by your partner.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 88,
+      "text": "you've lied about your body count.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 89,
+      "text": "you've had a friends-with-benefits situation.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 90,
+      "text": "you've done something sexual in a semi-public place.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 91,
+      "text": "you've used a dating app while in a relationship.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 92,
+      "text": "you've had a one-night stand you told no one about.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 93,
+      "text": "you've faked it in bed.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 94,
+      "text": "you've received or sent a drunk voice note you regret.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 95,
+      "text": "you've had a crush on a friend's partner.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 96,
+      "text": "you've been walked in on during an intimate moment.",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
     }
   ]
 }

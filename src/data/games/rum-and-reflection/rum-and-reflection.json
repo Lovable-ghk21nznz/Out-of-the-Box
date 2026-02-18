@@ -1,103 +1,1117 @@
 {
   "cards": [
-    { "text": "If your life were a movie, what would the audience be yelling at you?", "difficulty": 1 },
-    { "text": "What are the three best improvements you've made to your life?", "difficulty": 1 },
-    { "text": "What's something you still wish to improve in your life?", "difficulty": 1 },
-    { "text": "What's a lesson you learned the hard way?", "difficulty": 1 },
-    { "text": "If you could tell your past self one thing, what would it be?", "difficulty": 1 },
-    { "text": "What's something you're proud of but never talk about?", "difficulty": 1 },
-    { "text": "What do you think is your best quality?", "difficulty": 1 },
-    { "text": "Share a moment that changed your perspective on life.", "difficulty": 1 },
-    { "text": "What's a book everyone should read?", "difficulty": 1 },
-    { "text": "If you could master any skill instantly, what would it be?", "difficulty": 1 },
-    { "text": "What's your take on the meaning of life?", "difficulty": 1 },
-    { "text": "What's the kindest thing someone has done for you?", "difficulty": 1 },
-    { "text": "What's one thing you want to be remembered for?", "difficulty": 1 },
-    { "text": "Share a belief you used to have that you've changed.", "difficulty": 1 },
-    { "text": "What does happiness look like for you?", "difficulty": 1 },
-    { "text": "If you could relive one day, which would it be?", "difficulty": 1 },
-    { "text": "What's something you're currently struggling with?", "difficulty": 1 },
-    { "text": "What makes you feel most alive?", "difficulty": 1 },
-    { "text": "What's a small act of kindness you'll never forget?", "difficulty": 1 },
-    { "text": "If you could have dinner with anyone dead or alive, who and why?", "difficulty": 1 },
-    { "text": "What value do you hold most important in life?", "difficulty": 1 },
-    { "text": "Share a moment when you felt truly understood.", "difficulty": 1 },
-    { "text": "What's something you've learned about yourself recently?", "difficulty": 1 },
-    { "text": "What does success mean to you personally?", "difficulty": 1 },
-    { "text": "What's a risk you wish you had taken?", "difficulty": 1 },
-    { "text": "Share something that brings you peace.", "difficulty": 1 },
-    { "text": "What quality do you admire most in others?", "difficulty": 1 },
-    { "text": "What's an event that changed your perspective on life?", "difficulty": 1 },
-    { "text": "What was the most disappointing event in your life?", "difficulty": 1 },
-    { "text": "What's one thing you've overcome that you feel really proud of?", "difficulty": 1 },
-    { "text": "What's a belief you hold that most people would disagree with?", "difficulty": 1 },
-    { "text": "If you could erase one memory, which would it be and why?", "difficulty": 1 },
-    { "text": "What's a moral dilemma you've faced recently?", "difficulty": 1 },
-    { "text": "How do you define true friendship?", "difficulty": 1 },
-    { "text": "Why are you friends?", "difficulty": 1 },
-    { "text": "What fear holds you back the most?", "difficulty": 1 },
-    { "text": "What's a stereotype you've personally experienced or challenged?", "difficulty": 1 },
-    { "text": "What motivates you to keep going on hard days?", "difficulty": 1 },
-    { "text": "Have you ever forgiven someone you thought you never could?", "difficulty": 1 },
-    { "text": "What's a mistake you keep learning from?", "difficulty": 1 },
-    { "text": "What does vulnerability mean to you?", "difficulty": 1 },
-    { "text": "How do you handle regret?", "difficulty": 1 },
-    { "text": "What's a lesson you learned from someone younger than you?", "difficulty": 1 },
-    { "text": "What's a habit you're trying to break or build?", "difficulty": 1 },
-    { "text": "What does personal growth mean to you?", "difficulty": 1 },
-    { "text": "What's a value you refuse to compromise on?", "difficulty": 1 },
-    { "text": "How do you define courage?", "difficulty": 1 },
-    { "text": "What's a conversation you wish you could have again?", "difficulty": 1 },
-    { "text": "What's the hardest truth you've had to accept?", "difficulty": 1 },
-    { "text": "What makes you feel truly connected to others?", "difficulty": 1 },
-    { "text": "What's a habit that changed your life for the better?", "difficulty": 1 },
-    { "text": "What's the most significant decision you've made in life?", "difficulty": 1 },
-    { "text": "What do you think happens after death?", "difficulty": 1 },
-    { "text": "What's an event that made you question your beliefs?", "difficulty": 1 },
-    { "text": "What role does forgiveness play in your life?", "difficulty": 1 },
-    { "text": "How do you measure personal success?", "difficulty": 1 },
-    { "text": "What's a truth you've discovered about yourself recently?", "difficulty": 1 },
-    { "text": "What's something you wish you could unlearn?", "difficulty": 1 },
-    { "text": "If you could change one thing about your past, what would it be?", "difficulty": 1 },
-    { "text": "How do you deal with uncertainty?", "difficulty": 1 },
-    { "text": "What's a dream you've given up on but still think about?", "difficulty": 1 },
-    { "text": "What has been the most difficult experience you've ever had?", "difficulty": 1 },
-    { "text": "If budget were no object, where would you go on vacation?", "difficulty": 1 },
-    { "text": "When you're bored, what do you usually do?", "difficulty": 1 },
-    { "text": "What two big turning points in your life do you consider to be the most significant?", "difficulty": 1 },
-    { "text": "Tell me about two of your lifelong friends and why they matter so much to you. What factors made you choose them?", "difficulty": 1 },
-    { "text": "What are the rules you want to establish at home?", "difficulty": 1 },
-    { "text": "What qualities do you think a leader should have?", "difficulty": 1 },
-    { "text": "What qualities should we learn from how we handle children?", "difficulty": 1 },
-    { "text": "What color best describes your personality?", "difficulty": 1 },
-    { "text": "Who do you think knows you the best out of anyone you've met so far?", "difficulty": 1 },
-    { "text": "What has been your biggest regret in your life?", "difficulty": 1 },
-    { "text": "Who do you turn to or what do you do to handle stress?", "difficulty": 1 },
-    { "text": "What are the things you bring with you everywhere you go?", "difficulty": 1 },
-    { "text": "What is something that the majority of people discover when it is too late?", "difficulty": 1 },
-    { "text": "What was your most memorable culture shock encounter while visiting another country?", "difficulty": 1 },
-    { "text": "What aspect of your personality would you improve if you could?", "difficulty": 1 },
-    { "text": "How would you spend your day if you woke up one morning with all of your problems solved?", "difficulty": 1 },
-    { "text": "To you, what constitutes a meaningful conversation?", "difficulty": 1 },
-    { "text": "Can you live a meaningful life without your friends and family?", "difficulty": 1 },
-    { "text": "Have you ever changed or considered changing in order to be accepted by others?", "difficulty": 1 },
-    { "text": "Who is your hero, and why did you choose them?", "difficulty": 1 },
-    { "text": "Who is your role model for a healthy relationship in the world?", "difficulty": 1 },
-    { "text": "What is your preferred method of receiving affection?", "difficulty": 1 },
-    { "text": "How much do you think your parents influenced your relationships?", "difficulty": 1 },
-    { "text": "What's something you wish people understood about you sooner?", "difficulty": 1 },
-    { "text": "What's a belief or perspective that would be a deal breaker for you?", "difficulty": 1 },
-    { "text": "Where do you see yourself in 5 years?", "difficulty": 1 },
-    { "text": "How many times have you been in love?", "difficulty": 1 },
-    { "text": "What's the most important lesson you've learned from a past relationship?", "difficulty": 1 },
-    { "text": "What love languages do you prefer to receive, and which do you use to give?", "difficulty": 1 },
-    { "text": "What new boundaries have you set for yourself in relationships?", "difficulty": 1 },
-    { "text": "What do you need to feel safe in a relationship?", "difficulty": 1 },
-    { "text": "What do you think I was like in high school?", "difficulty": 1 },
-    { "text": "How emotionally available do you currently feel?", "difficulty": 1 },
-    { "text": "Have you ever considered an open relationship? Why or why not?", "difficulty": 1 },
-    { "text": "How has your view on love evolved over time?", "difficulty": 1 },
-    { "text": "What have you been feeling a lot lately?", "difficulty": 1 },
-    { "text": "Who in your life do you feel most yourself around? Why?", "difficulty": 1 }
+    {
+      "id": 1,
+      "text": "If your life were a movie, what would the audience be yelling at you?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 2,
+      "text": "What are the three best improvements you've made to your life?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 3,
+      "text": "What's something you still wish to improve in your life?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 4,
+      "text": "What's a lesson you learned the hard way?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 5,
+      "text": "If you could tell your past self one thing, what would it be?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 6,
+      "text": "What's something you're proud of but never talk about?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 7,
+      "text": "What do you think is your best quality?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 8,
+      "text": "Share a moment that changed your perspective on life.",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 9,
+      "text": "What's a book everyone should read?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 10,
+      "text": "If you could master any skill instantly, what would it be?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 11,
+      "text": "What's your take on the meaning of life?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 12,
+      "text": "What's the kindest thing someone has done for you?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 13,
+      "text": "What's one thing you want to be remembered for?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 14,
+      "text": "Share a belief you used to have that you've changed.",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 15,
+      "text": "What does happiness look like for you?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 16,
+      "text": "If you could relive one day, which would it be?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 17,
+      "text": "What's something you're currently struggling with?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 18,
+      "text": "What makes you feel most alive?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 19,
+      "text": "What's a small act of kindness you'll never forget?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 20,
+      "text": "If you could have dinner with anyone dead or alive, who and why?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 21,
+      "text": "What value do you hold most important in life?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 22,
+      "text": "Share a moment when you felt truly understood.",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 23,
+      "text": "What's something you've learned about yourself recently?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 24,
+      "text": "What does success mean to you personally?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 25,
+      "text": "What's a risk you wish you had taken?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 26,
+      "text": "Share something that brings you peace.",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 27,
+      "text": "What quality do you admire most in others?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 28,
+      "text": "What's an event that changed your perspective on life?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 29,
+      "text": "What was the most disappointing event in your life?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 30,
+      "text": "What's one thing you've overcome that you feel really proud of?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 31,
+      "text": "What's a belief you hold that most people would disagree with?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 32,
+      "text": "If you could erase one memory, which would it be and why?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 33,
+      "text": "What's a moral dilemma you've faced recently?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 34,
+      "text": "How do you define true friendship?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 35,
+      "text": "Why are you friends?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 36,
+      "text": "What fear holds you back the most?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 37,
+      "text": "What's a stereotype you've personally experienced or challenged?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 38,
+      "text": "What motivates you to keep going on hard days?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 39,
+      "text": "Have you ever forgiven someone you thought you never could?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 40,
+      "text": "What's a mistake you keep learning from?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 41,
+      "text": "What does vulnerability mean to you?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 42,
+      "text": "How do you handle regret?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 43,
+      "text": "What's a lesson you learned from someone younger than you?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 44,
+      "text": "What's a habit you're trying to break or build?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 45,
+      "text": "What does personal growth mean to you?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 46,
+      "text": "What's a value you refuse to compromise on?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 47,
+      "text": "How do you define courage?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 48,
+      "text": "What's a conversation you wish you could have again?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 49,
+      "text": "What's the hardest truth you've had to accept?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 50,
+      "text": "What makes you feel truly connected to others?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 51,
+      "text": "What's a habit that changed your life for the better?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 52,
+      "text": "What's the most significant decision you've made in life?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 53,
+      "text": "What do you think happens after death?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 54,
+      "text": "What's an event that made you question your beliefs?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 55,
+      "text": "What role does forgiveness play in your life?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 56,
+      "text": "How do you measure personal success?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 57,
+      "text": "What's a truth you've discovered about yourself recently?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 58,
+      "text": "What's something you wish you could unlearn?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 59,
+      "text": "If you could change one thing about your past, what would it be?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 60,
+      "text": "How do you deal with uncertainty?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 61,
+      "text": "What's a dream you've given up on but still think about?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 62,
+      "text": "What has been the most difficult experience you've ever had?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 63,
+      "text": "If budget were no object, where would you go on vacation?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 64,
+      "text": "When you're bored, what do you usually do?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 65,
+      "text": "What two big turning points in your life do you consider to be the most significant?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 66,
+      "text": "Tell me about two of your lifelong friends and why they matter so much to you. What factors made you choose them?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 67,
+      "text": "What are the rules you want to establish at home?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 68,
+      "text": "What qualities do you think a leader should have?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 69,
+      "text": "What qualities should we learn from how we handle children?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 70,
+      "text": "What color best describes your personality?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 71,
+      "text": "Who do you think knows you the best out of anyone you've met so far?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 72,
+      "text": "What has been your biggest regret in your life?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 73,
+      "text": "Who do you turn to or what do you do to handle stress?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 74,
+      "text": "What are the things you bring with you everywhere you go?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 75,
+      "text": "What is something that the majority of people discover when it is too late?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 76,
+      "text": "What was your most memorable culture shock encounter while visiting another country?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 77,
+      "text": "What aspect of your personality would you improve if you could?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 78,
+      "text": "How would you spend your day if you woke up one morning with all of your problems solved?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 79,
+      "text": "To you, what constitutes a meaningful conversation?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 80,
+      "text": "Can you live a meaningful life without your friends and family?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 81,
+      "text": "Have you ever changed or considered changing in order to be accepted by others?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 82,
+      "text": "Who is your hero, and why did you choose them?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 83,
+      "text": "Who is your role model for a healthy relationship in the world?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 84,
+      "text": "What is your preferred method of receiving affection?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 85,
+      "text": "How much do you think your parents influenced your relationships?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 86,
+      "text": "What's something you wish people understood about you sooner?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 87,
+      "text": "What's a belief or perspective that would be a deal breaker for you?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 88,
+      "text": "Where do you see yourself in 5 years?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 89,
+      "text": "How many times have you been in love?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 90,
+      "text": "What's the most important lesson you've learned from a past relationship?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 91,
+      "text": "What love languages do you prefer to receive, and which do you use to give?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 92,
+      "text": "What new boundaries have you set for yourself in relationships?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 93,
+      "text": "What do you need to feel safe in a relationship?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 94,
+      "text": "What do you think I was like in high school?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 95,
+      "text": "How emotionally available do you currently feel?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 96,
+      "text": "Have you ever considered an open relationship? Why or why not?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 97,
+      "text": "How has your view on love evolved over time?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 98,
+      "text": "What have you been feeling a lot lately?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 99,
+      "text": "Who in your life do you feel most yourself around? Why?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 100,
+      "text": "What's a promise you made to yourself that you've struggled to keep?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 101,
+      "text": "What relationship in your life has required the most growth from you?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 102,
+      "text": "What's something you need to forgive yourself for?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 103,
+      "text": "What part of your identity have you had to fight to hold onto?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 104,
+      "text": "What does loneliness feel like for you, and when does it hit hardest?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 105,
+      "text": "What's a conversation you've been avoiding, and why?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 106,
+      "text": "What's a part of yourself you've hidden to be accepted?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 107,
+      "text": "What would you do differently if you knew no one was watching?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 108,
+      "text": "What's the hardest boundary you've ever had to set?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 109,
+      "text": "What's a sacrifice you made that no one knows about?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 110,
+      "text": "How has your relationship with your parents shaped how you love?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 111,
+      "text": "What emotion do you have the hardest time expressing?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 112,
+      "text": "What's a part of growing up that you wish someone had warned you about?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 113,
+      "text": "What's a version of yourself that you miss?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 114,
+      "text": "What's the most painful lesson you've learned about trust?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 115,
+      "text": "What do you think people misunderstand about you the most?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 116,
+      "text": "What's something you pretend doesn't bother you, but it does?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 117,
+      "text": "When was the last time you cried, and what triggered it?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 118,
+      "text": "What's a dream you quietly gave up on, and do you grieve it?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 119,
+      "text": "What do you need to hear right now that no one is saying?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 120,
+      "text": "What's a question you're afraid to ask yourself?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 121,
+      "text": "How do you cope when life feels overwhelming?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 122,
+      "text": "What's a wound from childhood that still affects you today?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 123,
+      "text": "What's the most vulnerable thing you could say to someone you love?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 124,
+      "text": "What role do you tend to play in your friendships, and does it drain you?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 125,
+      "text": "What's something you wish you could tell your younger self about pain?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 126,
+      "text": "What's a toxic pattern in your life you've only recently recognized?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 127,
+      "text": "What does it take for you to truly let someone in?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 128,
+      "text": "What are you most afraid of losing?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 129,
+      "text": "What's a truth about yourself that took you years to accept?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 130,
+      "text": "What's the darkest period of your life, and what pulled you out of it?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 131,
+      "text": "Have you ever felt like you were losing yourself? What did that look like?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 132,
+      "text": "What's the most painful thing someone you loved has said to you?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 133,
+      "text": "What's a secret you carry that weighs on you?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 134,
+      "text": "Have you ever questioned whether life is worth living? What kept you going?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 135,
+      "text": "What's the biggest betrayal you've experienced, and how did it change you?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 136,
+      "text": "What part of yourself do you think is beyond repair?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 137,
+      "text": "What's something you've done that you still haven't forgiven yourself for?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 138,
+      "text": "If you could have one last conversation with someone who's gone, what would you say?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 139,
+      "text": "What's the most honest thing you could say about your mental health right now?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 140,
+      "text": "What's a moment where you realized you were becoming someone you didn't want to be?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 141,
+      "text": "What grief are you still carrying that you haven't fully processed?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 142,
+      "text": "What's the loneliest you've ever felt, even surrounded by people?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 143,
+      "text": "What's a trauma response you've mistaken for a personality trait?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 144,
+      "text": "What would your life look like if you stopped performing for others?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 145,
+      "text": "What relationship do you mourn the most, and why did it end?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 146,
+      "text": "What's something you've never said out loud because you're afraid of how it sounds?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 147,
+      "text": "What's the most selfless thing you've done that broke something inside you?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 148,
+      "text": "Have you ever stayed in something toxic because leaving felt worse?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 149,
+      "text": "What part of your story are you most afraid to tell?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 150,
+      "text": "What would you want people to know about you after you're gone?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 151,
+      "text": "What's the hardest goodbye you've ever had to say?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 152,
+      "text": "What's a lie you tell yourself to get through the day?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 153,
+      "text": "What's the most emotionally raw moment you've shared with another person?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 154,
+      "text": "What's a fear that controls more of your decisions than you'd like to admit?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 155,
+      "text": "When was the last time you felt truly seen by someone?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 156,
+      "text": "What's a part of your past you wish you could rewrite entirely?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 157,
+      "text": "What have you lost that you know you'll never get back?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 158,
+      "text": "What's the heaviest thing you're carrying right now?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 159,
+      "text": "If the people closest to you could hear your inner monologue, would they stay?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    }
   ]
 }

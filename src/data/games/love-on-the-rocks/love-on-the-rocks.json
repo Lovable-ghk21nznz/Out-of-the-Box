@@ -1,48 +1,634 @@
 {
   "cards": [
-    { "text": "How would your close friends describe you?", "difficulty": 1 },
-    { "text": "How many times have you been in love?", "difficulty": 1 },
-    { "text": "What's the most important lesson you've learned from a past relationship?", "difficulty": 2 },
-    { "text": "What did your last relationship make you appreciate about yourself?", "difficulty": 2 },
-    { "text": "What are three things you appreciate about being single?", "difficulty": 1 },
-    { "text": "What has helped you heal from heartbreak in the past?", "difficulty": 2 },
-    { "text": "What love languages do you prefer to receive, and which do you use to give?", "difficulty": 2 },
-    { "text": "What new boundaries have you set for yourself in relationships?", "difficulty": 2 },
-    { "text": "How do you show up for yourself when no one else can?", "difficulty": 3 },
-    { "text": "What is your attachment style (secure, anxious, avoidant, etc)?", "difficulty": 2 },
-    { "text": "What do you need to feel safe in a relationship?", "difficulty": 3 },
-    { "text": "What are your three favorite physical features in a partner?", "difficulty": 1 },
-    { "text": "What was the first thing you noticed about your partner when you met?", "difficulty": 1 },
-    { "text": "What was something you thought about your partner that you now realize was wrong?", "difficulty": 2 },
-    { "text": "What do you think I was like in high school?", "difficulty": 1 },
-    { "text": "Just by looking at me, what would you think I do for a living?", "difficulty": 1 },
-    { "text": "What's something you love to share in a relationship?", "difficulty": 2 },
-    { "text": "Has sex ever been a deal breaker for you in the past?", "difficulty": 3 },
-    { "text": "How do you feel about having sex on the first date?", "difficulty": 2 },
-    { "text": "How emotionally available do you currently feel?", "difficulty": 3 },
-    { "text": "When was the last time you ghosted someone, and why?", "difficulty": 3 },
-    { "text": "Have you ever considered an open relationship? Why or why not?", "difficulty": 3 },
-    { "text": "Which of your parents' personality traits do you want to keep, and which would you let go of?", "difficulty": 3 },
-    { "text": "How has your view on love evolved over time?", "difficulty": 2 },
-    { "text": "What about me intrigued you besides my looks?", "difficulty": 1 },
-    { "text": "What dating advice would you give to your younger self?", "difficulty": 2 },
-    { "text": "Write down your top 3 qualities you want in a partner.", "difficulty": 2 },
-    { "text": "Write down your top 2 relationship deal breakers.", "difficulty": 2 },
-    { "text": "What have you been feeling a lot lately?", "difficulty": 2 },
-    { "text": "What was the worst date you've been on and why?", "difficulty": 1 },
-    { "text": "What's a non-negotiable in your life?", "difficulty": 2 },
-    { "text": "What did the people who raised you teach you about love? How has that shaped you over time?", "difficulty": 3 },
-    { "text": "Who in your life do you feel most yourself around? Why?", "difficulty": 2 },
-    { "text": "How many kids do you want to have?", "difficulty": 2 },
-    { "text": "How do you define love?", "difficulty": 2 },
-    { "text": "What's a moment when you felt completely free?", "difficulty": 2 },
-    { "text": "Who is your role model for a healthy relationship in the world?", "difficulty": 1 },
-    { "text": "What is your preferred method of receiving affection?", "difficulty": 1 },
-    { "text": "What's something you wish people understood about you sooner?", "difficulty": 3 },
-    { "text": "What's a belief or perspective that would be a deal breaker for you?", "difficulty": 2 },
-    { "text": "Is jealousy a normal thing in a relationship?", "difficulty": 2 },
-    { "text": "Where do you see yourself in 5 years?", "difficulty": 1 },
-    { "text": "What's your ideal fight in a relationship?", "difficulty": 2 },
-    { "text": "What's something your parents did really well, and something they could improve on?", "difficulty": 3 }
+    {
+      "id": 1,
+      "text": "How would your close friends describe you?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 2,
+      "text": "How many times have you been in love?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 3,
+      "text": "What's the most important lesson you've learned from a past relationship?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 4,
+      "text": "What did your last relationship make you appreciate about yourself?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 5,
+      "text": "What are three things you appreciate about being single?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 6,
+      "text": "What has helped you heal from heartbreak in the past?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 7,
+      "text": "What love languages do you prefer to receive, and which do you use to give?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 8,
+      "text": "What new boundaries have you set for yourself in relationships?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 9,
+      "text": "How do you show up for yourself when no one else can?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 10,
+      "text": "What is your attachment style (secure, anxious, avoidant, etc)?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 11,
+      "text": "What do you need to feel safe in a relationship?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 12,
+      "text": "What are your three favorite physical features in a partner?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 13,
+      "text": "What was the first thing you noticed about your partner when you met?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 14,
+      "text": "What was something you thought about your partner that you now realize was wrong?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 15,
+      "text": "What do you think I was like in high school?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 16,
+      "text": "Just by looking at me, what would you think I do for a living?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 17,
+      "text": "What's something you love to share in a relationship?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 18,
+      "text": "Has sex ever been a deal breaker for you in the past?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 19,
+      "text": "How do you feel about having sex on the first date?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 20,
+      "text": "How emotionally available do you currently feel?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 21,
+      "text": "When was the last time you ghosted someone, and why?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 22,
+      "text": "Have you ever considered an open relationship? Why or why not?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 23,
+      "text": "Which of your parents' personality traits do you want to keep, and which would you let go of?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 24,
+      "text": "How has your view on love evolved over time?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 25,
+      "text": "What about me intrigued you besides my looks?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 26,
+      "text": "What dating advice would you give to your younger self?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 27,
+      "text": "Write down your top 3 qualities you want in a partner.",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 28,
+      "text": "Write down your top 2 relationship deal breakers.",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 29,
+      "text": "What have you been feeling a lot lately?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 30,
+      "text": "What was the worst date you've been on and why?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 31,
+      "text": "What's a non-negotiable in your life?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 32,
+      "text": "What did the people who raised you teach you about love? How has that shaped you over time?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 33,
+      "text": "Who in your life do you feel most yourself around? Why?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 34,
+      "text": "How many kids do you want to have?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 35,
+      "text": "How do you define love?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 36,
+      "text": "What's a moment when you felt completely free?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 37,
+      "text": "Who is your role model for a healthy relationship in the world?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 38,
+      "text": "What is your preferred method of receiving affection?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 39,
+      "text": "What's something you wish people understood about you sooner?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 40,
+      "text": "What's a belief or perspective that would be a deal breaker for you?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 41,
+      "text": "Is jealousy a normal thing in a relationship?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 42,
+      "text": "Where do you see yourself in 5 years?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 43,
+      "text": "What's your ideal fight in a relationship?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 44,
+      "text": "What's something your parents did really well, and something they could improve on?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 45,
+      "text": "What's your idea of a perfect first date?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 46,
+      "text": "What's a movie that always makes you cry?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 47,
+      "text": "What's the most spontaneous thing you've ever done?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 48,
+      "text": "What's your go-to comfort food after a long day?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 49,
+      "text": "Are you a morning person or a night owl?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 50,
+      "text": "What's the cheesiest pick-up line you've ever heard?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 51,
+      "text": "What's a song that reminds you of falling in love?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 52,
+      "text": "If we had a free weekend together, what would we do?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 53,
+      "text": "What's your most unpopular food opinion?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 54,
+      "text": "What do you find most attractive in a person that isn't physical?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 55,
+      "text": "What's the best compliment you've ever received?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 56,
+      "text": "Do you believe in love at first sight?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 57,
+      "text": "What's a small gesture that means a lot to you?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 58,
+      "text": "What's your guilty pleasure TV show?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 59,
+      "text": "What's the most romantic city in the world to you?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 60,
+      "text": "Would you rather cook together or be cooked for?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 61,
+      "text": "What's something that always puts you in a good mood?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 62,
+      "text": "What's the best trip you've ever taken?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 63,
+      "text": "What's your biggest pet peeve in dating?",
+      "difficulty": 1,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 64,
+      "text": "What's the biggest compromise you've made in a relationship?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 65,
+      "text": "What did your last breakup teach you about yourself?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 66,
+      "text": "What's a recurring pattern you've noticed in your relationships?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 67,
+      "text": "How do you handle jealousy when it comes up?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 68,
+      "text": "What's the longest you've gone without being in a relationship, and how did it feel?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 69,
+      "text": "What's a relationship mistake you'll never make again?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 70,
+      "text": "What does commitment mean to you right now?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 71,
+      "text": "What's a need you've had in past relationships that wasn't met?",
+      "difficulty": 2,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 72,
+      "text": "What's the most vulnerable you've ever been with a partner?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 73,
+      "text": "What's a fear about intimacy you haven't shared with anyone?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 74,
+      "text": "Have you ever been in love with someone who didn't love you back?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 75,
+      "text": "What's the most painful thing a partner has done to you?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 76,
+      "text": "Have you ever stayed in a relationship longer than you should have? Why?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 77,
+      "text": "What's your deepest insecurity when it comes to love?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 78,
+      "text": "Have you ever cheated or been cheated on? How did it shape you?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 79,
+      "text": "What's the hardest conversation you've had with a partner?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 80,
+      "text": "What's a part of your relationship history you're ashamed of?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 81,
+      "text": "Do you believe your parents' relationship affected your ability to love?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 82,
+      "text": "What's the biggest sacrifice you'd make for love?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 83,
+      "text": "Have you ever lost yourself in a relationship? What happened?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 84,
+      "text": "What's a sexual boundary you've had to enforce in a relationship?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 85,
+      "text": "What's the most honest thing you could say about what you want right now?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 86,
+      "text": "What does your ideal partner look like emotionally?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 87,
+      "text": "Have you ever been afraid of being truly known by a partner?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 88,
+      "text": "What's a conversation you need to have but keep putting off?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 89,
+      "text": "What would you need to feel fully safe being yourself in a relationship?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    },
+    {
+      "id": 90,
+      "text": "If your ex could describe you in three words, what would they say?",
+      "difficulty": 3,
+      "yesVotes": 0,
+      "noVotes": 0
+    }
   ]
 }
