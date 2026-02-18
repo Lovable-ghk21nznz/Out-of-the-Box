@@ -42,9 +42,9 @@ export default defineConfig(({ mode }) => ({
         ],
       },
       workbox: {
-        // Cache all static assets
+        skipWaiting: true,
+        clientsClaim: true,
         globPatterns: ["**/*.{js,css,html,ico,png,svg,json}"],
-        // Cache strategy
         runtimeCaching: [
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,

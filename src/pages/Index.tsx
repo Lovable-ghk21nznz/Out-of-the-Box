@@ -16,7 +16,7 @@ const Index = () => {
           className="text-center mb-8"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-3">
-            Out of the Box 🎉
+            Sip Happens 🎉
           </h1>
           <p className="text-lg text-muted-foreground">
             Choose your game and let the fun begin
